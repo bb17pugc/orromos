@@ -250,7 +250,7 @@
     }
                 </style>
             </div>
-
+            @include('includes.navbar_news')
             <main class="main-wrapper background-color-black">
                 <section class="section_resources">
                     <div class="container-large">
