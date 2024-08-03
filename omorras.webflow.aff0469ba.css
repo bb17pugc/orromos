@@ -188,6 +188,20 @@ height: 27.5rem;
 
 //  end blog
 
+
+
+// form css
+.form-head{
+  font-family: Staffxcondensed, Impact, sans-serif;
+}
+
+// form end
+
+// logo resposiveness issue for blog and form
+
+
+// end logo
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
