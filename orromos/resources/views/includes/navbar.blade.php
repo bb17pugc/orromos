@@ -1,5 +1,6 @@
 <div id="Navbar" data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar navbar-kontakt navbar-about home-navbar w-nav">
-                <div style="display: block; opacity: 1;" class="menu-overlay"></div>
+@include('includes.auth')                
+<div style="display: block; opacity: 1;" class="menu-overlay"></div>
                 <div class="padding-horizontal padding-small">
                     <div class="navbar_component custom-alignment">
                         <div class="navbar_base is-left">

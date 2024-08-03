@@ -13,5 +13,6 @@ Route::get('/about', [App\Http\Controllers\PagesController::class, 'about'])->na
 Route::get('/contact', [App\Http\Controllers\PagesController::class, 'contact'])->name('contact');
 Route::get('/news', [App\Http\Controllers\PagesController::class, 'news'])->name('news');
 Route::get('/web-showroom', [App\Http\Controllers\PagesController::class, 'webshowroom'])->name('web-showroom');
+Route::get('/new-blog', [App\Http\Controllers\BlogController::class, 'NewBlog'])->name('new-blog');
 
 
