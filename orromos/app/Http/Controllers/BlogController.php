@@ -6,5 +6,8 @@ use Illuminate\Http\Request;
 
 class BlogController extends Controller
 {
-    //
+    public function NewBlog()
+    {
+        return view('blog.form');
+    }
 }
