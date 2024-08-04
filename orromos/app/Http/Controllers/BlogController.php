@@ -10,4 +10,10 @@ class BlogController extends Controller
     {
         return view('blog.form');
     }
+
+    public function SaveBlog(Request $request)
+    {
+        return "The method is calling";
+    }
+    
 }
