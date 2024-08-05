@@ -187,7 +187,7 @@ class="navbar navbar-kontakt home-navbar w-nav"
         <h1 class="text-2xl mb-6 text-center form-head" style="color: #a9e405; font-size: 35px;">Upload Blog</h1>
 
         <!-- input fields -->
-        <form>
+        <form method="post" >
             <div class="mb-4">
                 <label for="blogTitle" class="block text-gray-700 font-semibold mb-2">Enter Your Blog Title</label>
                 <input type="text" id="blogTitle" name="blogTitle" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
