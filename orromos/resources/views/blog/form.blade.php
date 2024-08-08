@@ -187,7 +187,8 @@ class="navbar navbar-kontakt home-navbar w-nav"
         <h1 class="text-2xl mb-6 text-center form-head" style="color: #a9e405; font-size: 35px;">Upload Blog</h1>
 
         <!-- input fields -->
-        <form method="post" >
+        <form method="post" action="save-blog" enctype="multipart/form-data">
+            @csrf
             <div class="mb-4">
                 <label for="blogTitle" class="block text-gray-700 font-semibold mb-2">Enter Your Blog Title</label>
                 <input type="text" id="blogTitle" name="blogTitle" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
@@ -195,7 +196,7 @@ class="navbar navbar-kontakt home-navbar w-nav"
 
             <div class="mb-4">
                 <label for="blogImage" class="block text-gray-700 font-semibold mb-2">Upload Blog Image</label>
-                <input type="file" id="blogImage" name="blogImage" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+                <input type="file" id="blogImage" required name="blogImage" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
             </div>
 
             <div class="mb-6">
@@ -212,7 +213,7 @@ class="navbar navbar-kontakt home-navbar w-nav"
             border-radius: 0.375rem; /* rounded-lg */
             font-weight: 600; /* font-semibold */
             transition: background-color 0.2s; /* transition duration-200 */
-        " onmouseover="this.style.backgroundColor='#a3de00'" onmouseout="this.style.backgroundColor='#a3de00'">Submit</button>
+        " onmouseover="this.style.backgroundColor='#a3de00'" onmouseout="this.style.backgroundColor='#a3de00'">Save</button>
         </form>
     </div>
    </div>

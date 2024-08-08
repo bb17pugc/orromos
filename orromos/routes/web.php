@@ -14,6 +14,7 @@ Route::get('/contact', [App\Http\Controllers\PagesController::class, 'contact'])
 Route::get('/news', [App\Http\Controllers\PagesController::class, 'news'])->name('news');
 Route::get('/web-showroom', [App\Http\Controllers\PagesController::class, 'webshowroom'])->name('web-showroom');
 Route::get('/new-blog', [App\Http\Controllers\BlogController::class, 'NewBlog'])->name('new-blog');
-Route::get('/save-blog', [App\Http\Controllers\BlogController::class, 'SaveBlog'])->name('save-blog');
+Route::post('/save-blog', [App\Http\Controllers\BlogController::class, 'SaveBlog'])->name('save-blog');
+
 
 

@@ -12,8 +12,21 @@ class BlogController extends Controller
     }
 
     public function SaveBlog(Request $request)
-    {
-        return "The method is calling";
-    }
+{
+    $file = $request->file('blogImage');
+    $file->store('/', "public");
+    return $request->all();
+}
+
+protected function create(array $data)
+{
+    return blogs::create([
+        'blogTitle' => $data['blogTitle'],
+        'blogContent' => $data['blogContent'],
+        'blogImage' => $data['blogImage'],
+       
+    ]);
+}
+
     
 }

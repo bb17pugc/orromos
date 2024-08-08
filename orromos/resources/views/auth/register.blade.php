@@ -20,7 +20,7 @@
             @csrf
             <div class="mb-4">
                 <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
-                <input type="text"  name="name" value="{{ old('name') }}" required autocomplete="name" autofocus id="name" class="shadow appearance-none border rounded w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('name') is-invalid @enderror" placeholder="Enter your name">
+                <input type="text" id="name"  name="name" value="{{ old('name') }}" required autocomplete="name" autofocus id="name" class="shadow appearance-none border rounded w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline @error('name') is-invalid @enderror" placeholder="Enter your name">
                 @error('name')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -29,7 +29,7 @@
             </div>
             <div class="mb-4">
                 <label for="email" class="block text-gray-700 font-bold mb-2">Email Address</label>
-                <input type="email" id="email" class="shadow appearance-none border rounded w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline is-valid @error('email') @enderror" placeholder="Enter your email address" value="{{ old('email') }}" required autocomplete="email">
+                <input type="email" name="email" id="email" class="shadow appearance-none border rounded w-full py-4 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline is-valid @error('email') @enderror" placeholder="Enter your email address" value="{{ old('email') }}" required autocomplete="email">
             </div>
             <div class="mb-4">
                 <label for="password" class="block text-gray-700 font-bold mb-2">Password</label>
