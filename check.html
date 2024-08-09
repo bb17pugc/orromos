@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .blog-font{
+  font-family: Staffxcondensed, Impact, sans-serif;
+  
+}
+.button-text {
+  padding-bottom: 4px;
+}
+.navbar_button {
+  z-index: 100;
+  grid-column-gap: .5rem;
+  grid-row-gap: .5rem;
+  border: 1px solid var(--yellow-500);
+  color: var(--white);
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+}
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+.btn-styling{
+            color: #C5FF5D;
+            border: 2px;
+            border-color: #C5FF5D;
+            border-style: solid;
+        }
+        .btn-styling:hover{
+            background-color: #C5FF5D;
+        }
+    </style>
+</head>
+<body class="bg-black text-white font-sans">
+    <div class="container mx-auto px-4 py-20 mt-40">
+        <div class="md:flex md:justify-between md:space-x-12">
+            <!-- Left Section -->
+            <div class="md:w-1/2 space-y-6 ml-40">
+                <h1 class="text-6xl tracking-widest blog-font">IN KONTAKT TRETEN</h1>
+                <p class="text-4xl blog-font">&</p>
+                <h2 class="text-2xl blog-font" style="color: #696969;">SEO MARKETING STRATEGIE FÜR DEINE WEBSEITE ERSTELLEN <br>LASSEN</h2>
+                <p class="">Bist du bereit, jetzt dein Unternehmen an die Spitze zu bringen? Jede Sekunde ohne eine leistungsstarke, exklusivSEO-optmierte Webseite bedeutet verlorene Kunden und Chancen.</p>
+                <p class="">Handle jetzt und sichere dir eine professionelle Webseite, die sofort Ergebnisse liefert.</p>
+                <p class="">Wir sind gespannt auf dein Vorhaben!</p>
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-2">
+                        <span class="inline-block">📧</span>
+                        <a href="mailto:info@omorras.com" class="text-gray-400">info@omorras.com</a>
+                        <button class="bg-gray-700 text-xs py-1 px-2 rounded">kopieren</button>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="inline-block">📞</span>
+                        <a href="tel:+491774567033" class="text-gray-400">+49 1774567033 <span class="font-bold">(WhatsApp me 💚)</span></a>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <span class="inline-block">📍</span>
+                        <p class="text-gray-400">Bürgerstrasse 6, 45329, Germany</p>
+                    </div>
+                </div>
+                <div class="mt-8">
+                    <button class=" bg-black border-2 btn-styling border-lime-400 rounded-full py-2 px-4 hover:text-black transition duration-300 ease-in-out">
+                        Jetzt Meeting buchen
+                    </button>
+                    <p class="text-gray-500 text-xs mt-2">*15-Minuten-Meeting (telefonisch)</p>
+                </div>
+            </div>
+
+            <!-- Right Section -->
+            <div class="md:w-1/2 mt-10 md:mt-0">
+                <form class="space-y-6" method="POST" action="{{ route('register') }}">
+                    <div>
+                        <label for="name" class="block text-gray-400">Für Fragen <span class="italic">(vollständig ausfüllen)</span></label>
+                        <input type="text" id="name"  name="name" required autocomplete="name" autofocus id="name" placeholder="Vollständiger Name" class=" bg-black text-white p-2 mt-2 border border-gray-50 rounded-lg" style="width: 530px;">
+                        
+                    </div>
+                    <div>
+                        <label for="email" class="block text-gray-400">Email</label>
+                        <input type="email" name="email" id="email" placeholder="john@company.com" class="bg-black text-white p-2 mt-2 border border-gray-50 rounded-lg" style="width: 530px;">
+                    </div>
+                    <div>
+                        <label for="message" class="block text-gray-400">Nachricht</label>
+                        <textarea id="message" name="message" placeholder="Welche Webseite können wir für dich bauen?" rows="6" class="bg-black text-white p-2 mt-2 border border-gray-50 rounded-lg" style="width: 530px;"></textarea>
+                    </div>
+                    <div class="flex items-start space-x-2">
+                        <input type="checkbox" id="privacy" name="privacy" class="mt-1">
+                        <label for="privacy" class="text-gray-400 text-sm">Ich lese und akzeptiere die <a href="#" class="text-green-500 underline">Privacy Policy</a>.</label>
+                    </div>
+                    <button class=" bg-black border-2 btn-styling border-lime-400 rounded-full py-2 px-4 hover:text-black transition duration-300 ease-in-out">
+                        Save
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

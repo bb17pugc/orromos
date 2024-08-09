@@ -21,6 +21,8 @@
         <link href="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664a9c9203705988c950dd02_Favicon-Beste-omorras-Webdesign.png" rel="shortcut icon" type="image/x-icon">
         <link href="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664c8502570f137cdcb3cbc0_Favicon-Bestes-omorras-Webdesign-webcliplogo.png" rel="apple-touch-icon">
         <link href="https://www.omorras.com/kontakt" rel="canonical">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
         <!-- Please keep this css code to improve the font quality-->
         <style>
       * {
@@ -60,6 +62,11 @@
     .w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
         margin-bottom: 0 !important;
     }
+
+    .blog-font{
+  font-family: Staffxcondensed, Impact, sans-serif;
+  
+}
     
     /* Prevent all click and hover interaction with an element */
     .pointer-events-off {
@@ -251,7 +258,7 @@
     }
                 </style>
             </div>
-            <main class="main-wrapper background-color-black">
+            <main class="main-wrapper background-color-black -mt-16 ml-20">
                 <header class="section_contact-page">
                     <div class="padding-global">
                         <div class="container-large">
@@ -262,10 +269,12 @@
                                             <div data-w-id="56a9b0f9-f42b-9fe5-6d86-84fb3889a43d" class="contact-page_content">
                                                 <div class="margin-bottom margin-medium">
                                                     <div class="margin-bottom margin-small">
-                                                        <p class="paragraph-46">IN KONTAKT TRETEN &amp;</p>
-                                                        <h1 class="heading-34">Webseite erstellen lassen</h1>
+                                                        <p class="paragraph-46 blog-font">IN KONTAKT TRETEN &amp;</p>
+                                                        <h2 class="text-3xl blog-font" style="color: #696969;">SEO MARKETING STRATEGIE FÜR DEINE WEBSEITE ERSTELLEN <br>LASSEN</h2>
                                                     </div>
-                                                    <p class="text-color-graytrue400">Wir sind gespannt auf dein Vorhaben!</p>
+                                                    <p class="">Bist du bereit, jetzt dein Unternehmen an die Spitze zu bringen? Jede Sekunde ohne eine leistungsstarke, exklusivSEO-optmierte Webseite bedeutet verlorene Kunden und Chancen.</p>
+                <p class="mt-3">Handle jetzt und sichere dir eine professionelle Webseite, die sofort Ergebnisse liefert.</p>
+                <p class="mt-3">Wir sind gespannt auf dein Vorhaben!</p>
                                                 </div>
                                                 <div class="contact-page_contact-list">
                                                     <div id="w-node-_56a9b0f9-f42b-9fe5-6d86-84fb3889a445-7e62ccbc" class="contact-page_item">
