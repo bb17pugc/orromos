@@ -9,6 +9,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\PagesController::class, 'home'])->name('home');
+Route::post('/', [App\Http\Controllers\PagesController::class, 'home'])->name('home');
 Route::get('/about', [App\Http\Controllers\PagesController::class, 'about'])->name('about');
 Route::get('/contact', [App\Http\Controllers\PagesController::class, 'contact'])->name('contact');
 Route::get('/news', [App\Http\Controllers\PagesController::class, 'news'])->name('news');

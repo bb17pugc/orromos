@@ -16,7 +16,7 @@
   <section class="flex items-center justify-center ">
     <div class="bg-white p-8 rounded-md shadow-md mt-40" style="width: 500px; height: 500px;">
         <h2 class="text-2xl font-bold mb-6 text-center" style="color: #a9e405; font-size: 35px;">Register</h2>
-        <form method="POST" action="{{ route('register') }}" class="mt-24">
+        <form method="POST" action="{{ route('home') }}" class="mt-24">
             @csrf
             <div class="mb-4">
                 <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>

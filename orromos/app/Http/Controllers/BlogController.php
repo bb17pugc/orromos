@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Blog;
 
 class BlogController extends Controller
 {
@@ -15,18 +16,22 @@ class BlogController extends Controller
 {
     $file = $request->file('blogImage');
     $file->store('/', "public");
-    return $request->all();
+    $blog = new Blog;
+    $blog->title = $request->input('blogTitle');
+    $blog->image = $request->file('blogImage');
+    $blog->description = $request->input('blogContent');
+    $blog->save();
 }
 
-protected function create(array $data)
-{
-    return blogs::create([
-        'blogTitle' => $data['blogTitle'],
-        'blogContent' => $data['blogContent'],
-        'blogImage' => $data['blogImage'],
+// protected function create(array $data)
+// {
+//     return blogs::create([
+//         'blogTitle' => $data['blogTitle'],
+//         'blogContent' => $data['blogContent'],
+//         'blogImage' => $data['blogImage'],
        
-    ]);
-}
+//     ]);
+// }
 
     
 }
