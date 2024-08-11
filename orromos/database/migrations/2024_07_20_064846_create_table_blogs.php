@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('title'); // Ensure this is the correct name
             $table->text('description');  // Ensure this is a text column
             $table->string('image'); 
+            $table->foreignId('user_id')->nullable()->references('id')->on('users');
             $table->integer('status')->default(1);
             $table->timestamps();
         });

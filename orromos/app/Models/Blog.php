@@ -12,5 +12,6 @@ class Blog extends Model
         'blogTitle',
         'blogImage',
         'blogContent',
+        'user_id'
     ];
 }

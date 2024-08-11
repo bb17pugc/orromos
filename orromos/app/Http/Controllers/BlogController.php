@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Blog;
-
+use Auth;
 class BlogController extends Controller
 {
     public function NewBlog()
@@ -19,6 +19,8 @@ class BlogController extends Controller
     $blog = new Blog;
     $blog->title = $request->input('blogTitle');
     $blog->image = $request->file('blogImage');
+    $blog->user_id = Auth::user()->id;
+    
     $blog->description = $request->input('blogContent');
     $blog->save();
 }
