@@ -12,6 +12,27 @@ html {
     display: block;
   }
   
+  // css fixes
+  
+  @media screen and (max-width: 767px){
+    .new-seo{
+      position: relative;
+      top: 112px;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .new-seo{
+      position: relative;
+      top: 112px;
+    }
+
+  }
+
+
+
+
+
   audio, canvas, progress, video {
     vertical-align: baseline;
     display: inline-block;
@@ -59,6 +80,7 @@ html {
   small {
     font-size: 80%;
   }
+
   
   sub, sup {
     vertical-align: baseline;
@@ -8787,6 +8809,7 @@ html {
     .text-size-large.text-color-graytrue300 {
       font-size: .85rem;
       left: auto;
+      top: -65px;
     }
   
     .text-size-large.text-color-graytrue300.footer-email {
@@ -8810,7 +8833,7 @@ html {
     }
   
     .padding-global.about-padding-global.raqeel {
-      top: -200px;
+      top: 145px;
     }
   
     .padding-global._98-performance-image {
@@ -8818,7 +8841,7 @@ html {
     }
   
     .padding-section-large {
-      top: 70px;
+      top: -317px;
     }
   
     .padding-section-large.faq {
@@ -8890,17 +8913,24 @@ html {
   
     .navbar_base {
       height: 3.75rem;
+      top: -107px;
       position: relative;
-      top: 30px;
     }
   
     .navbar_base.is-left {
       width: 200px;
-      
     }
+
+    /* @media screen and (max-width: 479px){
+      .navbar_base.is-left{
+        position: relative;
+        top: -105px;
+      }
+    } */
+
   
     .navbar_logo-link.w--current {
-      top: 55px;
+      top: 2px;
     }
   
     .navbar_menu-dropdown {
@@ -8952,7 +8982,7 @@ html {
     }
   
     .home-hero_component {
-      top: 167px;
+      top: 42px;
     }
   
     .home-hero_padding {
@@ -8999,6 +9029,7 @@ html {
   
     .section_testimonials {
       overflow: visible;
+      top: -650px;
     }
   
     .testimonials_content {
@@ -9035,7 +9066,7 @@ html {
     }
   
     .section_home-faqs.about-faq-section {
-      top: -250px;
+      top: -806px;
     }
   
     .footer {
@@ -9123,10 +9154,12 @@ html {
   
     .about-quote_component {
       grid-template-columns: 1fr;
+      top: -162px;
     }
   
     .about-quote_h2 {
       font-size: 5rem;
+      top: 600px;
     }
   
     .about-quote_image-wrapper {
@@ -9214,6 +9247,8 @@ html {
   
     .padding-section-xxlarge {
       width: 90%;
+      top: -228px;
+      position: relative;
     }
   
     .home-hero_h1 {
@@ -9287,7 +9322,7 @@ html {
     .star-wrapper {
       margin-top: -12.5rem;
       font-size: .6rem;
-      top: 450px;
+      top: 478px;
       left: -20px;
     }
   
@@ -9908,7 +9943,8 @@ html {
     }
   
     .div-block-3 {
-      top: -360px;
+      top: -1356px;
+      padding: 15px;
     }
   }
   

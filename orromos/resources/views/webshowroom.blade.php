@@ -36,6 +36,15 @@
     body .transition {display: block}
     .w-editor .transition {display: none;}
     .no-scroll-transition {overflow: hidden; position: relative;}
+
+    @media screen and (max-width: 479px) {
+    .m-section-large {
+        height: 1656px;
+    }
+    .footer{
+        height: 900px;
+    }
+}
         </style>
         <!-- General text lines animation -->
         <style>

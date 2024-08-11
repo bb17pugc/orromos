@@ -35,6 +35,19 @@
         <meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q">
         <!-- Page transition -->
         <style>
+            @media screen and (max-width: 479px) {
+    .main-wrapper.background-color-black {
+        padding-top: 14.913rem;
+        height: 1600px;
+    }
+}
+            @media screen and (max-width: 479px) {
+    .footer {
+        position: relative;
+        left: 17px;
+        height: 906px;
+    }
+}
     body .transition {display: block}
     .w-editor .transition {display: none;}
     .no-scroll-transition {overflow: hidden; position: relative;}
@@ -150,6 +163,14 @@
       @media screen and (max-width: 479px) {
         .hide-mobile{
           display: none !important;
+        }
+    }
+
+
+    @media screen and (max-width: 479px) {
+        body{
+          position: relative;
+          left: -70px;
         }
     }
      

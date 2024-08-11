@@ -36,6 +36,16 @@
     body .transition {display: block}
     .w-editor .transition {display: none;}
     .no-scroll-transition {overflow: hidden; position: relative;}
+
+    @media and screen(max-width: 479px) {
+    .main-wrapper.background-color-black {
+        padding-top: 14.913rem;
+        height: 1016px;
+    }
+    .footer{
+        height: 890px;
+    }
+}
         </style>
     </head>
     <body>

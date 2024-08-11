@@ -16,6 +16,7 @@ Route::get('/news', [App\Http\Controllers\PagesController::class, 'news'])->name
 Route::get('/web-showroom', [App\Http\Controllers\PagesController::class, 'webshowroom'])->name('web-showroom');
 Route::get('/new-blog', [App\Http\Controllers\BlogController::class, 'NewBlog'])->name('new-blog');
 Route::post('/save-blog', [App\Http\Controllers\BlogController::class, 'SaveBlog'])->name('save-blog');
+Route::get('/blogs', [App\Http\Controllers\BlogController::class, 'Blog'])->name('blogs');
 
 
 

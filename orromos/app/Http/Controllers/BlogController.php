@@ -12,6 +12,13 @@ class BlogController extends Controller
         return view('blog.form');
     }
 
+    public function Blog()
+    {
+        return view('blogs');
+    }
+
+    
+
     public function SaveBlog(Request $request)
 {
     $file = $request->file('blogImage');

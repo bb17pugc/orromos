@@ -23,10 +23,22 @@
       -moz-osx-font-smoothing: grayscale;
       -o-font-smoothing: antialiased;
     }
+
+    @media screen and (max-width: 479px) {
+    .m-section-large.home-msection {
+        top: -150px;
+        height: 1647px;
+    }
+    .footer{
+        height: 1300px;
+    }
+}
         </style>
         <!-- You can remove this -->
         <meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q">
         <!-- Page transition -->
+
+        
         <style>
     body .transition {display: block}
     .w-editor .transition {display: none;}
@@ -356,6 +368,12 @@
     .no-scrollbar::-webkit-scrollbar {
         display: none;
     }
+
+    @media screen and (max-width: 469px) {
+    .navbar.navbar-kontakt.home-navbar {
+        top: 15%;
+    }
+}
     
     
     /* Link color inherits from parent font color  */
@@ -364,7 +382,10 @@
     }
                 </style>
             </div>
-            @include('includes.navbar')
+<!-- Navbar -->
+
+@include('includes.navbar')
+
             <section class="home-section">
                 <main class="main-wrapper background-color-black">
                     <header id="Hero" class="section_home-hero home">
@@ -541,7 +562,7 @@
 
 
             <!-- Section New Dein SEO Service Start -->
-    <section class="bg-black text-white relative -mt-32">
+    <section class="bg-black text-white relative -mt-32 new-seo">
         <section class="text-center py-12">
             <h1 class="text-3xl font-bold">Dein SEO-Service</h1>
             <p class="mt-4 text-base">

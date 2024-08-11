@@ -281,10 +281,19 @@
     a {
         color: inherit;
     }
+    @media screen and (max-width: 479px) {
+        .homefaq-section{
+        height: 2730px;
+    }
+    .footer{
+        margin-top: 175px;
+    }
+}
+    
                 </style>
             </div>
             
-            @include('includes.navbar_aboutus')
+            @include('includes.navbar')
             <section class="herotologos-section">
                 <main class="main-wrapper background-color-black about-page-wrapper">
                     <header id="Hero" class="section_about-hero">
