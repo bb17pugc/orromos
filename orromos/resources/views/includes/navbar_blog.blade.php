@@ -1,18 +1,3 @@
-<style>
-
-@media screen and (max-width: 479px){
-      .navbar_base.is-left{
-        position: relative;
-        top: -105px;
-      }
-    }
-@media screen and (max-width: 479px) {
-    .navbar_right-wrapper {
-        position: relative;
-        top: -142px;
-    }
-}
-</style>
 <div
                 id="Navbar"
                 data-animation="default"
@@ -208,4 +193,3 @@
                     </div>
                 </div>
             </div>
-           

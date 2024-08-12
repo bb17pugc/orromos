@@ -12,6 +12,9 @@
                                 <div class="w-nav-button" style="-webkit-user-select: text;" aria-label="menu" role="button" tabindex="0" aria-controls="w-nav-overlay-0" aria-haspopup="menu" aria-expanded="false">
                                     <div class="w-icon-nav-menu"></div>
                                 </div>
+                                <a href="/new-blog" style="position: absolute; right: 250px; top:6px; padding-left: 25px; padding-right: 25px; white-space: nowrap;  -webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-text navbar_button w-inline-block"  >
+                                New Blog +
+                            </a>
                                 <a href="/kontakt" data-w-id="e9885fc5-edae-39d7-1283-86718a75755d" class="navbar_button w-inline-block">
                                     <div class="clip">
                                         <div style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="button-text">

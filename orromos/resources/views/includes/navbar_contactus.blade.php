@@ -56,6 +56,9 @@
                                 <div class="w-nav-button">
                                     <div class="w-icon-nav-menu"></div>
                                 </div>
+                                <a href="/new-blog" style="position: absolute; right: 250px; top:6px; padding-left: 25px; padding-right: 25px; white-space: nowrap;  -webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-text navbar_button w-inline-block"  >
+                                New Blog +
+                            </a>
                                 <a
                                     href="/contact"
                                     data-w-id="f8543fae-1587-99ac-e90a-5443273b2632"

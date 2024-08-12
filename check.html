@@ -1,110 +1,162 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontaktformular</title>
+    <title>Toggle Menu Example</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        .blog-font{
-  font-family: Staffxcondensed, Impact, sans-serif;
-  
-}
-.button-text {
-  padding-bottom: 4px;
-}
-.navbar_button {
-  z-index: 100;
-  grid-column-gap: .5rem;
-  grid-row-gap: .5rem;
-  border: 1px solid var(--yellow-500);
-  color: var(--white);
-  border-radius: 8px;
-  justify-content: space-between;
-  align-items: center;
-  height: 3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  line-height: 1;
-  text-decoration: none;
-  display: flex;
-  position: relative;
-}
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-}
-.btn-styling{
-            color: #C5FF5D;
-            border: 2px;
-            border-color: #C5FF5D;
-            border-style: solid;
-        }
-        .btn-styling:hover{
-            background-color: #C5FF5D;
-        }
-    </style>
 </head>
-<body class="bg-black text-white font-sans">
-    <div class="container mx-auto px-4 py-20 mt-40">
-        <div class="md:flex md:justify-between md:space-x-12">
-            <!-- Left Section -->
-            <div class="md:w-1/2 space-y-6 ml-40">
-                <h1 class="text-6xl tracking-widest blog-font">IN KONTAKT TRETEN</h1>
-                <p class="text-4xl blog-font">&</p>
-                <h2 class="text-2xl blog-font" style="color: #696969;">SEO MARKETING STRATEGIE FÜR DEINE WEBSEITE ERSTELLEN <br>LASSEN</h2>
-                <p class="">Bist du bereit, jetzt dein Unternehmen an die Spitze zu bringen? Jede Sekunde ohne eine leistungsstarke, exklusivSEO-optmierte Webseite bedeutet verlorene Kunden und Chancen.</p>
-                <p class="">Handle jetzt und sichere dir eine professionelle Webseite, die sofort Ergebnisse liefert.</p>
-                <p class="">Wir sind gespannt auf dein Vorhaben!</p>
-                <div class="space-y-4">
-                    <div class="flex items-center space-x-2">
-                        <span class="inline-block">📧</span>
-                        <a href="mailto:info@omorras.com" class="text-gray-400">info@omorras.com</a>
-                        <button class="bg-gray-700 text-xs py-1 px-2 rounded">kopieren</button>
-                    </div>
-                    <div class="flex items-center space-x-2">
-                        <span class="inline-block">📞</span>
-                        <a href="tel:+491774567033" class="text-gray-400">+49 1774567033 <span class="font-bold">(WhatsApp me 💚)</span></a>
-                    </div>
-                    <div class="flex items-center space-x-2">
-                        <span class="inline-block">📍</span>
-                        <p class="text-gray-400">Bürgerstrasse 6, 45329, Germany</p>
-                    </div>
-                </div>
-                <div class="mt-8">
-                    <button class=" bg-black border-2 btn-styling border-lime-400 rounded-full py-2 px-4 hover:text-black transition duration-300 ease-in-out">
-                        Jetzt Meeting buchen
-                    </button>
-                    <p class="text-gray-500 text-xs mt-2">*15-Minuten-Meeting (telefonisch)</p>
-                </div>
-            </div>
+<body class="bg-gray-900 text-white">
+    <div class="relative">
+        <!-- Menu Bars Icon -->
+        <button id="menu-toggle" class="text-3xl p-4">
+            &#9776;
+        </button>
 
-            <!-- Right Section -->
-            <div class="md:w-1/2 mt-10 md:mt-0">
-                <form class="space-y-6" method="POST" action="{{ route('register') }}">
-                    <div>
-                        <label for="name" class="block text-gray-400">Für Fragen <span class="italic">(vollständig ausfüllen)</span></label>
-                        <input type="text" id="name"  name="name" required autocomplete="name" autofocus id="name" placeholder="Vollständiger Name" class=" bg-black text-white p-2 mt-2 border border-gray-50 rounded-lg" style="width: 530px;">
-                        
+        <!-- Menu Options -->
+        <nav id="menu-options" class="navbar_menu-dropdown-list w-dropdown-list hidden">
+            <div style="height:0px;opacity:0;-webkit-transform:translate3d(0, -5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="navbar_menu-base">
+                <nav role="navigation" class="navbar_menu w-nav-menu">
+                    <div class="navbar_menu-grid">
+                        <!--Home -->
+                        <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5a9-7e62cc73" style="transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="navbar_into-view-2">
+                            <a href="/" class="navbar_link w-inline-block" tabindex="0">
+                                <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5ab-7e62cc73" class="clip">
+                                    <div class="button-icon" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                                        <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
+                                    </div>
+                                    <div class="button-icon is-bottom" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                                        <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
+                                    </div>
+                                </div>
+                                <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5b0-7e62cc73" class="text-condensed-normal">Home</div>
+                            </a>
+                        </div>
+                        <!--Home  end-->
+                        <!--Blogs -->
+                        <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5a9-7e62cc73" style="transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="navbar_into-view-2">
+                            <a href="/blogs" class="navbar_link w-inline-block" tabindex="0">
+                                <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5ab-7e62cc73" class="clip">
+                                    <div class="button-icon" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                                        <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
+                                    </div>
+                                    <div class="button-icon is-bottom" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                                        <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
+                                    </div>
+                                </div>
+                                <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5b0-7e62cc73" class="text-condensed-normal">Blogs</div>
+                            </a>
+                        </div>
+                        <!--Blogs  end-->
+                        <div style="-webkit-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="navbar_into-view-1">
+                            <a href="/about" class="navbar_link top-item w-inline-block">
+                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f609-7e62cce0" class="clip">
+                                    <div class="button-icon">
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
+                                            alt="A yellow arrow that has a 45 degree angle"
+                                            class="icon-1x1-xxsmall"
+                                        >
+                                    </div>
+                                    <div class="button-icon is-bottom">
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
+                                            alt="A yellow arrow that has a 45 degree angle"
+                                            class="icon-1x1-xxsmall"
+                                        >
+                                    </div>
+                                </div>
+                            
+                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f60e-7e62cce0" class="text-condensed-normal">About</div>
+                            </a>
+                        </div>
+                        <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f610-7e62cce0" style="-webkit-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="navbar_into-view-2">
+                            <a href="/web-showroom" class="navbar_link w-inline-block">
+                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f612-7e62cce0" class="clip">
+                                    <div class="button-icon">
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
+                                            alt="A yellow arrow that has a 45 degree angle"
+                                            class="icon-1x1-xxsmall"
+                                        >
+                                    </div>
+                                    <div class="button-icon is-bottom">
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
+                                            alt="A yellow arrow that has a 45 degree angle"
+                                            class="icon-1x1-xxsmall"
+                                        >
+                                    </div>
+                                </div>
+                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f617-7e62cce0" class="text-condensed-normal">WEB-SHOWROOM</div>
+                            </a>
+                        </div>
+                        <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f619-7e62cce0" style="-webkit-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="navbar_into-view-3">
+                            <a href="/news" aria-current="page" class="navbar_link w-inline-block w--current">
+                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f61b-7e62cce0" class="clip">
+                                    <div class="button-icon">
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
+                                            alt="A yellow arrow that has a 45 degree angle"
+                                            class="icon-1x1-xxsmall"
+                                        >
+                                    </div>
+                                    <div class="button-icon is-bottom">
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
+                                            alt="A yellow arrow that has a 45 degree angle"
+                                            class="icon-1x1-xxsmall"
+                                        >
+                                    </div>
+                                </div>
+                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f620-7e62cce0" class="text-condensed-normal">NEWS</div>
+                            </a>
+                        </div>
+                        <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f622-7e62cce0" style="-webkit-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="navbar_into-view-4">
+                            <a href="/contact" class="navbar_link w-inline-block">
+                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f624-7e62cce0" class="clip">
+                                    <div class="button-icon">
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
+                                            alt="A yellow arrow that has a 45 degree angle"
+                                            class="icon-1x1-xxsmall"
+                                        >
+                                    </div>
+                                    <div class="button-icon is-bottom">
+                                        <img
+                                            loading="lazy"
+                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
+                                            alt="A yellow arrow that has a 45 degree angle"
+                                            class="icon-1x1-xxsmall"
+                                        >
+                                    </div>
+                                </div>
+                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f629-7e62cce0" class="text-condensed-normal">Kontakt</div>
+                            </a>
+                        </div>
                     </div>
-                    <div>
-                        <label for="email" class="block text-gray-400">Email</label>
-                        <input type="email" name="email" id="email" placeholder="john@company.com" class="bg-black text-white p-2 mt-2 border border-gray-50 rounded-lg" style="width: 530px;">
-                    </div>
-                    <div>
-                        <label for="message" class="block text-gray-400">Nachricht</label>
-                        <textarea id="message" name="message" placeholder="Welche Webseite können wir für dich bauen?" rows="6" class="bg-black text-white p-2 mt-2 border border-gray-50 rounded-lg" style="width: 530px;"></textarea>
-                    </div>
-                    <div class="flex items-start space-x-2">
-                        <input type="checkbox" id="privacy" name="privacy" class="mt-1">
-                        <label for="privacy" class="text-gray-400 text-sm">Ich lese und akzeptiere die <a href="#" class="text-green-500 underline">Privacy Policy</a>.</label>
-                    </div>
-                    <button class=" bg-black border-2 btn-styling border-lime-400 rounded-full py-2 px-4 hover:text-black transition duration-300 ease-in-out">
-                        Save
-                    </button>
-                </form>
-            </div>
-        </div>
+                </nav>
     </div>
+
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const closeMenu = document.getElementById('close-menu');
+        const menuOptions = document.getElementById('menu-options');
+
+        menuToggle.addEventListener('click', () => {
+            menuOptions.classList.remove('hidden');
+        });
+
+        closeMenu.addEventListener('click', () => {
+            menuOptions.classList.add('hidden');
+        });
+    </script>
 </body>
 </html>
