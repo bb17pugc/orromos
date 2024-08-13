@@ -3,160 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toggle Menu Example</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-900 text-white">
-    <div class="relative">
-        <!-- Menu Bars Icon -->
-        <button id="menu-toggle" class="text-3xl p-4">
-            &#9776;
-        </button>
+    <title>Webpage</title>
 
-        <!-- Menu Options -->
-        <nav id="menu-options" class="navbar_menu-dropdown-list w-dropdown-list hidden">
-            <div style="height:0px;opacity:0;-webkit-transform:translate3d(0, -5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -5rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="navbar_menu-base">
-                <nav role="navigation" class="navbar_menu w-nav-menu">
-                    <div class="navbar_menu-grid">
-                        <!--Home -->
-                        <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5a9-7e62cc73" style="transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="navbar_into-view-2">
-                            <a href="/" class="navbar_link w-inline-block" tabindex="0">
-                                <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5ab-7e62cc73" class="clip">
-                                    <div class="button-icon" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                                        <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
-                                    </div>
-                                    <div class="button-icon is-bottom" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                                        <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
-                                    </div>
-                                </div>
-                                <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5b0-7e62cc73" class="text-condensed-normal">Home</div>
-                            </a>
-                        </div>
-                        <!--Home  end-->
-                        <!--Blogs -->
-                        <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5a9-7e62cc73" style="transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="navbar_into-view-2">
-                            <a href="/blogs" class="navbar_link w-inline-block" tabindex="0">
-                                <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5ab-7e62cc73" class="clip">
-                                    <div class="button-icon" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                                        <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
-                                    </div>
-                                    <div class="button-icon is-bottom" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                                        <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
-                                    </div>
-                                </div>
-                                <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5b0-7e62cc73" class="text-condensed-normal">Blogs</div>
-                            </a>
-                        </div>
-                        <!--Blogs  end-->
-                        <div style="-webkit-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="navbar_into-view-1">
-                            <a href="/about" class="navbar_link top-item w-inline-block">
-                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f609-7e62cce0" class="clip">
-                                    <div class="button-icon">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
-                                            alt="A yellow arrow that has a 45 degree angle"
-                                            class="icon-1x1-xxsmall"
-                                        >
-                                    </div>
-                                    <div class="button-icon is-bottom">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
-                                            alt="A yellow arrow that has a 45 degree angle"
-                                            class="icon-1x1-xxsmall"
-                                        >
-                                    </div>
-                                </div>
-                            
-                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f60e-7e62cce0" class="text-condensed-normal">About</div>
-                            </a>
-                        </div>
-                        <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f610-7e62cce0" style="-webkit-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="navbar_into-view-2">
-                            <a href="/web-showroom" class="navbar_link w-inline-block">
-                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f612-7e62cce0" class="clip">
-                                    <div class="button-icon">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
-                                            alt="A yellow arrow that has a 45 degree angle"
-                                            class="icon-1x1-xxsmall"
-                                        >
-                                    </div>
-                                    <div class="button-icon is-bottom">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
-                                            alt="A yellow arrow that has a 45 degree angle"
-                                            class="icon-1x1-xxsmall"
-                                        >
-                                    </div>
-                                </div>
-                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f617-7e62cce0" class="text-condensed-normal">WEB-SHOWROOM</div>
-                            </a>
-                        </div>
-                        <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f619-7e62cce0" style="-webkit-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="navbar_into-view-3">
-                            <a href="/news" aria-current="page" class="navbar_link w-inline-block w--current">
-                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f61b-7e62cce0" class="clip">
-                                    <div class="button-icon">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
-                                            alt="A yellow arrow that has a 45 degree angle"
-                                            class="icon-1x1-xxsmall"
-                                        >
-                                    </div>
-                                    <div class="button-icon is-bottom">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
-                                            alt="A yellow arrow that has a 45 degree angle"
-                                            class="icon-1x1-xxsmall"
-                                        >
-                                    </div>
-                                </div>
-                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f620-7e62cce0" class="text-condensed-normal">NEWS</div>
-                            </a>
-                        </div>
-                        <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f622-7e62cce0" style="-webkit-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="navbar_into-view-4">
-                            <a href="/contact" class="navbar_link w-inline-block">
-                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f624-7e62cce0" class="clip">
-                                    <div class="button-icon">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
-                                            alt="A yellow arrow that has a 45 degree angle"
-                                            class="icon-1x1-xxsmall"
-                                        >
-                                    </div>
-                                    <div class="button-icon is-bottom">
-                                        <img
-                                            loading="lazy"
-                                            src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg"
-                                            alt="A yellow arrow that has a 45 degree angle"
-                                            class="icon-1x1-xxsmall"
-                                        >
-                                    </div>
-                                </div>
-                                <div id="w-node-e3d26c28-4014-b5bb-5026-71d30065f629-7e62cce0" class="text-condensed-normal">Kontakt</div>
-                            </a>
-                        </div>
-                    </div>
-                </nav>
+    <!-- Card hover border glow -->
+    <style>
+    .card_border_glow {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+    }
+
+    /* Initial background is black */
+    body {
+        background-color: #000000;
+        transition: background-color 2s ease-in-out;
+    }
+
+    /* Class to trigger the light effect */
+    .light-on {
+        background-color: #aeaeae; /* Light gray color */
+    }
+
+    /* Additional content styling */
+    .content {
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    .content h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .content p {
+        font-size: 1.5em;
+        line-height: 1.6;
+    }
+
+    /* Add enough height to enable scrolling */
+    .content-block {
+        height: 120vh;
+    }
+    </style>
+</head>
+<body>
+    <!-- Content block 1 -->
+    <div class="content content-block">
+        <h1>Welcome to My Webpage</h1>
+        <p>Scroll down to see the light-on effect.</p>
+    </div>
+
+    <!-- Content block 2 -->
+    <div class="content content-block">
+        <h1>More Content Here</h1>
+        <p>This is some additional content to ensure the page is scrollable.</p>
     </div>
 
     <script>
-        const menuToggle = document.getElementById('menu-toggle');
-        const closeMenu = document.getElementById('close-menu');
-        const menuOptions = document.getElementById('menu-options');
+    document.addEventListener('DOMContentLoaded', function() {
+        // Function to handle the scroll event
+        function handleScroll() {
+            // Add the class to simulate the light-on effect
+            document.body.classList.add('light-on');
+            // Remove the scroll event so it only triggers once
+            window.removeEventListener('scroll', handleScroll);
+        }
 
-        menuToggle.addEventListener('click', () => {
-            menuOptions.classList.remove('hidden');
-        });
-
-        closeMenu.addEventListener('click', () => {
-            menuOptions.classList.add('hidden');
-        });
+        // Add the scroll event listener
+        window.addEventListener('scroll', handleScroll);
+    });
     </script>
 </body>
 </html>
