@@ -12,6 +12,14 @@
         top: -142px;
     }
 }
+.hide-bar{
+    display: none;
+}
+@media screen and (max-width: 479px){
+    .hide-bar{
+        display: block;
+    }
+}
 </style>
 <div
                 id="Navbar"
@@ -88,6 +96,7 @@
                                                             </div>
                                                             <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5b0-7e62cc73" class="text-condensed-normal">Home</div>
                                                         </a>
+                                                        
                                                     </div>
                                                     <!--Home  end-->
                                                     <!--Blogs -->
@@ -103,6 +112,7 @@
                                                             </div>
                                                             <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5b0-7e62cc73" class="text-condensed-normal">Blogs</div>
                                                         </a>
+                                                        <hr class="hide-bar">
                                                     </div>
                                                     <!--Blogs  end-->
                                                     <div style="-webkit-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 2rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="navbar_into-view-1">

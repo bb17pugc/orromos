@@ -275,25 +275,89 @@
     .no-scrollbar::-webkit-scrollbar {
         display: none;
     }
+    .text-block-59{
+        color: #fff;
+        padding: 15px;
+    }
     
     
     /* Link color inherits from parent font color  */
     a {
         color: inherit;
     }
-    @media screen and (max-width: 479px) {
+
+    @media screen and (max-width: 767px) {
         .homefaq-section{
         height: 2730px;
     }
     .footer{
         margin-top: 175px;
     }
+    .section_testimonials {
+        overflow: visible;
+        top: -490px;
+    }
+    .section_home-faqs.about-faq-section {
+        top: -1071px;
+    }
+    .div-block-3 {
+        top: -1279px;
+        padding: 15px;
+    }
+    .button-group.is-footer {
+        position: relative;
+        left: 10px;
+        top: -165px;
+    }
+    .footer_right{
+        top: -216px;
+    }
+    #w-node-b0456520-ef50-d190-5b05-0306ba2eeb18-7e62cca6{
+        position: relative;
+        left: 41px;
+        top: -86px;
+    }
+    }
+
+    @media screen and (max-width: 479px) {
+        .homefaq-section{
+        height: 2730px;
+    }
+    .footer{
+        margin-top: 175px;
+        height: 1150px;
+    }
+    .section_testimonials {
+        overflow: visible;
+        top: -490px;
+    }
+    .section_home-faqs.about-faq-section {
+        top: -1071px;
+    }
+    .div-block-3 {
+        top: -1279px;
+        padding: 15px;
+    }
+    .button-group.is-footer {
+        position: relative;
+        left: 10px;
+        top: -165px;
+    }
+    .footer_right{
+        top: -216px;
+    }
+    #w-node-b0456520-ef50-d190-5b05-0306ba2eeb18-7e62cca6{
+        position: relative;
+        left: 41px;
+        top: -86px;
+    }
+    
 }
     
                 </style>
             </div>
             
-            @include('includes.navbar')
+            @include('includes.navbar_aboutus')
             <section class="herotologos-section">
                 <main class="main-wrapper background-color-black about-page-wrapper">
                     <header id="Hero" class="section_about-hero">

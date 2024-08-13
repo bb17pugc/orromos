@@ -11,6 +11,8 @@ html {
   article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block;
   }
+
+  
   
   // css fixes
   
@@ -19,15 +21,59 @@ html {
       position: relative;
       top: 112px;
     }
+    .button-group.is-footer {
+      position: relative;
+      left: 10px;
+      top: -100px;
+  }
+  .footer_right{
+    position: relative;
+    top: -145px;
+  }
+  .footer{
+    height: 1000px;
+  }
+  #w-node-f49fff61-01b7-62af-f2a1-59730bfba9a2-0bfba95f {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+    top: -40px;
+      left: 33px;
+      position: relative;
+  }
+  .logos_component{
+    position: relative;
+    top: 300px;
+  }
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 479px) {
     .new-seo{
       position: relative;
       top: 112px;
     }
+    .button-group.is-footer {
+      position: relative;
+      left: 10px;
+      top: -100px;
+  }
+  .footer_right{
+    position: relative;
+    top: -145px;
+  }
+  .logos_component{
+    position: relative;
+    top: 300px;
+  }
+    
+    
 
   }
+
+  
+@media screen and (max-width: 479px){
+    .hide-bar{
+        display: block;
+    }
+}
 
 
 
@@ -7223,6 +7269,8 @@ html {
   
     .button-group.is-footer {
       margin-left: 22px;
+      
+
     }
   
     .text-size-large {
@@ -8701,7 +8749,7 @@ html {
   
     .container-large {
       position: relative;
-      top: -230px;
+      top: -495px;
     }
   
     .container-large.strategisch-text {
@@ -8833,7 +8881,7 @@ html {
     }
   
     .padding-global.about-padding-global.raqeel {
-      top: 145px;
+      top: -242px;
     }
   
     .padding-global._98-performance-image {
@@ -8841,7 +8889,7 @@ html {
     }
   
     .padding-section-large {
-      top: -317px;
+      top: 101px;
     }
   
     .padding-section-large.faq {
@@ -8888,7 +8936,8 @@ html {
     }
   
     .navbar.navbar-about {
-      top: -20px;
+      top: 125px;
+      position: relative;
     }
   
     .navbar.navbar-kontakt {
@@ -9030,7 +9079,7 @@ html {
   
     .section_testimonials {
       overflow: visible;
-      top: -650px;
+      top: -66px;
     }
   
     .testimonials_content {
@@ -9102,6 +9151,7 @@ html {
   
     .footer_h1 {
       position: relative;
+      margin-top: 40px;
     }
   
     .work_grid {
@@ -9160,7 +9210,7 @@ html {
   
     .about-quote_h2 {
       font-size: 5rem;
-      top: 600px;
+      
     }
   
     .about-quote_image-wrapper {
@@ -9188,6 +9238,8 @@ html {
     .about-bio_component {
       grid-template-columns: 1fr;
       padding-bottom: 5rem;
+      position: relative;
+        top: -310px;
     }
   
     .about-quote_image {
@@ -10347,10 +10399,14 @@ html {
   @media screen and (max-width: 479px) {
     #w-node-da9c855c-df99-7b5b-8020-c109e24bad97-7e62cc73, #w-node-f49fff61-01b7-62af-f2a1-59730bfba965-0bfba95f {
       grid-area: span 1 / span 1 / span 1 / span 1;
+      
     }
   
     #w-node-f49fff61-01b7-62af-f2a1-59730bfba9a2-0bfba95f {
       grid-area: span 1 / span 2 / span 1 / span 2;
+      top: -40px;
+        left: 33px;
+        position: relative;
     }
   
     #w-node-_59a8725e-f929-43eb-4181-d9753a22ec51-7e62cca6, #w-node-b0456520-ef50-d190-5b05-0306ba2eeacb-7e62cca6 {

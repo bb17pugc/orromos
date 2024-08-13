@@ -35,10 +35,29 @@
         <meta name="facebook-domain-verification" content="mlk59ybu44651lzcbhhxjfl8vfae8q">
         <!-- Page transition -->
         <style>
-            @media screen and (max-width: 479px) {
+            @media screen and (max-width: 767px) {
     .main-wrapper.background-color-black {
         padding-top: 14.913rem;
         height: 1600px;
+    }
+    .footer {
+        position: relative;
+        left: 17px;
+        height: 906px;
+    }
+    .footer_right{
+        top: -110px;
+    position: relative;
+    }
+    .button-group.is-footer {
+        position: relative;
+        left: 10px;
+        top: -67px;
+    }
+    #w-node-f49fff61-01b7-62af-f2a1-59730bfba9a2-0bfba95f{
+        top: -60px;
+        position: relative;
+        left: 33px;
     }
 }
             @media screen and (max-width: 479px) {
@@ -46,6 +65,20 @@
         position: relative;
         left: 17px;
         height: 906px;
+    }
+    .footer_right{
+        top: -110px;
+    position: relative;
+    }
+    .button-group.is-footer {
+        position: relative;
+        left: 10px;
+        top: -67px;
+    }
+    #w-node-f49fff61-01b7-62af-f2a1-59730bfba9a2-0bfba95f{
+        top: -60px;
+        position: relative;
+        left: 33px;
     }
 }
     body .transition {display: block}

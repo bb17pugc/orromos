@@ -302,6 +302,160 @@
     </div>
 </div>
 </div>
+<footer id="Footer" class="footer">
+                <div class="padding-global footer">
+                    <div class="container-large footer">
+                        <div class="padding-section-large footer">
+                            <div data-w-id="f49fff61-01b7-62af-f2a1-59730bfba963" class="footer_layout footer">
+                                <div id="w-node-f49fff61-01b7-62af-f2a1-59730bfba964-0bfba95f" class="footer_left">
+                                    <div id="w-node-f49fff61-01b7-62af-f2a1-59730bfba965-0bfba95f" class="footer_main-text-wrapper is-desktop">
+                                        <h6 id="w-node-f49fff61-01b7-62af-f2a1-59730bfba966-0bfba95f" class="_1 footer_h1">IDEE IM BLICK?
+                                            <br>Business=Freiheit.
+                                        </h6>
+                                    </div>
+                                    <div class="button-group is-footer">
+                                        <div fs-copyclip-element="copy-this" class="text-size-large text-color-graytrue300 footer-email">info@omorras.com</div>
+                                        <a href="#" fs-copyclip-element="click" class="button is-icon is-glow footer-email-button w-inline-block">
+                                            <div class="clip">
+                                                <div class="button-text">
+                                                    <div class="text-color-graytrue100">kopieren</div>
+                                                </div>
+                                                <div class="button-text is-bottom">
+                                                    <div class="text-color-graytrue100">copy</div>
+                                                </div>
+                                            </div>
+                                            <div class="clip">
+                                                <div class="button-icon">
+                                                    <img
+                                                        src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd6_ungroup.svg"
+                                                        loading="lazy"
+                                                        alt=""
+                                                        class="icon-1x1-xxsmall"
+                                                    >
+                                                </div>
+                                                <div class="button-icon is-bottom">
+                                                    <img
+                                                        src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd6_ungroup.svg"
+                                                        loading="lazy"
+                                                        alt=""
+                                                        class="icon-1x1-xxsmall"
+                                                    >
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div id="w-node-f49fff61-01b7-62af-f2a1-59730bfba978-0bfba95f" class="footer_right">
+                                    <div class="footer_navigation-wrapper">
+                                        <a
+                                            id="w-node-f49fff61-01b7-62af-f2a1-59730bfba97a-0bfba95f"
+                                            data-w-id="f49fff61-01b7-62af-f2a1-59730bfba97a"
+                                            href="/"
+                                            class="footer_navlink _1 w-inline-block"
+                                        >
+                                            <div class="clip">
+                                                <div class="button-text">
+                                                    <div class="text-block-23">Home</div>
+                                                </div>
+                                                <div class="button-text is-bottom">
+                                                    <div class="text-block-29">Home</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a
+                                            id="w-node-f49fff61-01b7-62af-f2a1-59730bfba982-0bfba95f"
+                                            data-w-id="f49fff61-01b7-62af-f2a1-59730bfba982"
+                                            href="/about"
+                                            class="footer_navlink _2 w-inline-block"
+                                        >
+                                            <div class="clip">
+                                                <div class="button-text">
+                                                    <div class="text-block-24">About</div>
+                                                </div>
+                                                <div class="button-text is-bottom">
+                                                    <div class="text-block-30">About</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a
+                                            id="w-node-f49fff61-01b7-62af-f2a1-59730bfba98a-0bfba95f"
+                                            data-w-id="f49fff61-01b7-62af-f2a1-59730bfba98a"
+                                            href="/webseite-erstellen-lassen"
+                                            aria-current="page"
+                                            class="footer_navlink _3 w-inline-block w--current"
+                                        >
+                                            <div class="clip">
+                                                <div class="button-text">
+                                                    <div class="text-block-25">WEB&#x27;SHOWROOM</div>
+                                                </div>
+                                                <div class="button-text is-bottom">
+                                                    <div class="text-block-31">WEB&#x27;SHOWROOM</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a
+                                            id="w-node-f49fff61-01b7-62af-f2a1-59730bfba992-0bfba95f"
+                                            data-w-id="f49fff61-01b7-62af-f2a1-59730bfba992"
+                                            href="/news"
+                                            class="footer_navlink _4 w-inline-block"
+                                        >
+                                            <div class="clip">
+                                                <div class="button-text">
+                                                    <div class="text-block-26">NEWS</div>
+                                                </div>
+                                                <div class="button-text is-bottom">
+                                                    <div class="text-block-32">NEWS</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a
+                                            id="w-node-f49fff61-01b7-62af-f2a1-59730bfba99a-0bfba95f"
+                                            data-w-id="f49fff61-01b7-62af-f2a1-59730bfba99a"
+                                            href="/kontakt"
+                                            class="footer_navlink _5 w-inline-block"
+                                        >
+                                            <div class="clip">
+                                                <div class="button-text">
+                                                    <div class="text-block-27">Kontakt</div>
+                                                </div>
+                                                <div class="button-text is-bottom">
+                                                    <div class="text-block-33">Kontakt</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <a
+                                            href="/impressum"
+                                            id="w-node-_13d7b122-e6aa-cf38-7d40-140058034b51-0bfba95f"
+                                            data-w-id="13d7b122-e6aa-cf38-7d40-140058034b51"
+                                            class="footer_navlink-2 _5 w-inline-block"
+                                        >
+                                            <div class="clip">
+                                                <div class="button-text-2">
+                                                    <div class="text-block-28">Impressum</div>
+                                                </div>
+                                                <div class="button-text-2 is-bottom">
+                                                    <div class="text-block-34">Impressum</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <p class="text-color-graytrue400 footer-slogan">Wenn es richtig gut werden soll.
+                                            <strong>omorras</strong>.
+                                        </p>
+                                    </div>
+                                    <div id="w-node-f49fff61-01b7-62af-f2a1-59730bfba9a2-0bfba95f">
+                                        <p class="text-color-graytrue400 text-size-tiny">Copyright ©2024 omorras - All Rights reserved •
+                                            <br>VAT DE354717762 •
+                                            <a href="/privacy-policy">Privacy Policy</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 </div>
 
     

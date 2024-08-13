@@ -32,6 +32,7 @@ class BlogController extends Controller
     $blog->save();
 }
 
+
 // protected function create(array $data)
 // {
 //     return blogs::create([

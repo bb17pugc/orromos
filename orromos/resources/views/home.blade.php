@@ -24,14 +24,53 @@
       -o-font-smoothing: antialiased;
     }
 
+    @media screen and (max-width: 767px) {
+        .m-section-large.home-msection {
+        top: -150px;
+        height: 1647px;
+    }
+    .home-about_component {
+        grid-template-columns: 1fr;
+        position: relative;
+        top: 330px;
+    }
+    
+    .footer{
+        height: 1000px;
+    }
+    .container-large {
+        position: relative;
+        top: -224px;
+    }
+    .set-highlight{
+        position: relative;
+        top: -235px;
+    }
+}
+
     @media screen and (max-width: 479px) {
     .m-section-large.home-msection {
         top: -150px;
         height: 1647px;
     }
-    .footer{
-        height: 1300px;
+    .home-about_component {
+        grid-template-columns: 1fr;
+        position: relative;
+        top: 330px;
     }
+    
+    .footer{
+        height: 1000px;
+    }
+    .container-large {
+        position: relative;
+        top: -224px;
+    }
+    .set-highlight{
+        position: relative;
+        top: -235px;
+    }
+
 }
         </style>
         <!-- You can remove this -->
@@ -533,7 +572,7 @@
                 <section id="About" data-w-id="4235e1af-d844-3b65-2cf0-a534df5db39b" class="section_home-about section-2">
                     <div class="padding-global prob-sol-padding-global">
                         <div class="container-large">
-                            <div>
+                            <div class="set-highlight">
                                 <div class="w-layout-grid home-about_component">
                                     <div id="w-node-_4235e1af-d844-3b65-2cf0-a534df5db3a0-7e62cc73" class="home-about_content">
                                         <h2 class="home-about_h2">“Die Webseite muss bei uns schnelle Ladezeiten haben, SEO optimiert sein und wirklich gut aussehen.“

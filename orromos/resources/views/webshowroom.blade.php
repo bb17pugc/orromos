@@ -37,12 +37,45 @@
     .w-editor .transition {display: none;}
     .no-scroll-transition {overflow: hidden; position: relative;}
 
+    @media screen and (max-width: 767px) {
+    .m-section-large {
+        height: 1656px;
+    }
+    .footer{
+        height: 900px;
+    }
+    .button-group.is-footer {
+        position: relative;
+        left: 10px;
+        top: -58px;
+    }
+    #w-node-f49fff61-01b7-62af-f2a1-59730bfba9a2-0bfba95f{
+        position: relative;
+        left: 33px;
+        top: -62px;
+    }
+}
+
     @media screen and (max-width: 479px) {
     .m-section-large {
         height: 1656px;
     }
     .footer{
         height: 900px;
+    }
+    .button-group.is-footer {
+        position: relative;
+        left: 10px;
+        top: -58px;
+    }
+    .footer_right{
+        position: relative;
+        top: -110px;
+    }
+    #w-node-f49fff61-01b7-62af-f2a1-59730bfba9a2-0bfba95f{
+        position: relative;
+        left: 33px;
+        top: -62px;
     }
 }
         </style>

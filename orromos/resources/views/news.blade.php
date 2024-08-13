@@ -42,9 +42,42 @@
         padding-top: 14.913rem;
         height: 1016px;
     }
+    .set-res{
+        height: 1016px;
+    }
     .footer{
         height: 890px;
+        margin-top: 0;
+        top: -50px;
+        position: relative;
     }
+    .section_resources{
+        height: 910px!important;
+    }
+    .main-wrapper.background-color-black {
+        padding-top: 14.913rem;
+        height: 1020px;
+    }
+}
+@media and screen(max-width: 767px) {
+    .main-wrapper.background-color-black {
+        padding-top: 14.913rem;
+        height: 1016px;
+    }
+    .footer{
+        height: 890px;
+        margin-top: 0;
+        top: -50px;
+        position: relative;
+    }
+    .section_resources{
+        height: 910px!important;
+    }
+    .main-wrapper.background-color-black {
+        padding-top: 14.913rem;
+        height: 1020px!important;
+    }
+    
 }
         </style>
     </head>
@@ -261,8 +294,8 @@
                 </style>
             </div>
             @include('includes.navbar_news')
-            <main class="main-wrapper background-color-black">
-                <section class="section_resources">
+            <main class="main-wrapper background-color-black set-res">
+                <section class="section_resources set-res">
                     <div class="container-large">
                         <div class="padding-section-large">
                             <div class="padding-global">

@@ -1,4 +1,13 @@
-
+<style>
+  .hide-bar{
+    display: none;
+}
+@media screen and (max-width: 479px){
+    .hide-bar{
+        display: block;
+    }
+}
+</style>
 <div id="Navbar" data-animation="default" data-collapse="none" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar navbar-kontakt navbar-about home-navbar w-nav">
 @include('includes.auth')                
 <div style="display: block; opacity: 1;" class="menu-overlay"></div>
@@ -42,6 +51,7 @@
                                             <nav role="navigation" class="navbar_menu w-nav-menu">
                                                 <div class="navbar_menu-grid">
                                                     <!--Home -->
+                                                    
                                                     <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5a9-7e62cc73" style="transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="navbar_into-view-2">
                                                         <a href="/" class="navbar_link w-inline-block" tabindex="0">
                                                             <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5ab-7e62cc73" class="clip">
@@ -54,7 +64,10 @@
                                                             </div>
                                                             <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5b0-7e62cc73" class="text-condensed-normal">Home</div>
                                                         </a>
+                                                        <hr class="hide-bar">
                                                     </div>
+                                                    
+                                                    
                                                     <!--Home  end-->
                                                     <div style="transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="navbar_into-view-1">
                                                  
