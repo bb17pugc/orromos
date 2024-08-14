@@ -48,6 +48,9 @@
         position: relative;
         top: -235px;
     }
+    .service-section{
+        height: 1732px;
+    }
 }
 
     @media screen and (max-width: 479px) {
@@ -71,6 +74,9 @@
     .set-highlight{
         position: relative;
         top: -235px;
+    }
+    .service-section{
+        height: 1732px;
     }
 
 }
@@ -603,9 +609,9 @@
 
 
             <!-- Section New Dein SEO Service Start -->
-    <section class="bg-black text-white relative -mt-32 new-seo">
+    <section class= "relative -mt-32 new-seo text-white pt-6" style="background-color: #a3a3a3;" >
         <section class="text-center py-12">
-            <h1 class="text-3xl font-bold">Dein SEO-Service</h1>
+            <h1 class="text-3xl font-bold" style="color: #dcff7d; font-size: 52px;">Dein SEO-Service</h1>
             <p class="mt-4 text-base">
                 Wir sind hier, um zu helfen und dein Geschäft voranzutreiben.
                 <br>
@@ -662,12 +668,12 @@
 
 
 
-            <section class="case-study-section mt-52">
-                <section id="Work" class="section_work">
-                    <section class="team-slider slider-tablet">
+            <section class="case-study-section mt-52" style="background-color: #a3a3a3;">
+                <section id="Work" class="section_work" style="top: -108px; position: relative;">
+                    <section class="team-slider slider-tablet" style="background-color: #a3a3a3;">
                         <div class="container home-container-mobile slider-container home-slider">
-                            <h2 class="centered-heading">Benefits mit uns im Team</h2>
-                            <p class="centered-subheading">Ist das Risiko es wert, Zeit in deine Webseite zu investieren, nur um sie plötzlich frustriert zusammenbrechen zu sehen?</p>
+                            <h2 class="centered-heading" style="font-size: 52px; color: #dcff7d">Benefits mit uns im Team</h2>
+                            <p class="centered-subheading" style="top: 35px;">Ist das Risiko es wert, Zeit in deine Webseite zu investieren, nur um sie plötzlich frustriert zusammenbrechen zu sehen?</p>
                             <div
                                 data-delay="4000"
                                 data-animation="slide"
@@ -971,7 +977,7 @@
                     </div>
                 </section>
             </section>
-            <section class="service-section">
+            <section class="service-section" style="background-color: #a3a3a3;">
                 <section id="Services" class="section_home-services-2">
                     <div class="padding-global-2 second service-padding-global">
                         <div class="container-large-2">
@@ -1001,7 +1007,7 @@
                                                     <div class="text-condensed-small text-color-yellow500 _01">/01</div>
                                                 </div>
                                             </div>
-                                            <p class="text-color-graytrue400-2">
+                                            <p class="">
                                                 <strong class="bold-text-41">Sicherheit geht vor:</strong>
                                                 <br>Unsere Webflow-Webdesign-Agentur wird dir eine 100% custom experience Lösung für dein Business erstellen.
                                                 <br>
@@ -1017,7 +1023,9 @@
                                                     <div class="text-condensed-small text-color-yellow500 _02">/02</div>
                                                 </div>
                                             </div>
-                                            <p class="text-color-graytrue400-2">
+                                            <p class=""> 
+                                            <!-- text-color-graytrue400-2 -->
+
                                                 <strong class="bold-text-37">Content, der überzeugt:</strong>
                                                 <br>Du hast nur eine Chance einen Kunden für dich zu gewinnen.
                                                 <br>
@@ -1033,7 +1041,7 @@
                                                     <div class="text-condensed-small text-color-yellow500 _03">/03</div>
                                                 </div>
                                             </div>
-                                            <p class="text-color-graytrue400-2 service-blocktexts">
+                                            <p class=" service-blocktexts">
                                                 <strong class="bold-text-40">Schwierigkeiten, Kunden langfristig an die Marke zu binden?</strong>
                                                 <br>Oft liegt das Problem tiefer – nämlich im Branding
                                                 <br>der Marke. Wir nutzen gezielte psychologische Elemente, überzeugende Texte und durchdachte Designgesten, um der Marke nicht nur ein Gesicht, sondern eine Seele zu geben.
