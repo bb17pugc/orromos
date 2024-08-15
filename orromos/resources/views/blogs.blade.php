@@ -3,7 +3,7 @@
 <html data-wf-domain="www.omorras.com" data-wf-page="664151b27c997e767e62cca6" data-wf-site="664151b27c997e767e62cc13">
     <head>
         <meta charset="utf-8">
-        <title>About — Webseite erstellen lassen</title>
+        <title>Blogs</title>
         <meta content="Möchtest du heute deine beste Webseite erstellen lassen. | Professionelle Webdesign Agentur in Lübeck – omorras. ♡Unsere talentierten Webdesigner geben 100%." name="description">
         <meta content="About — Webseite erstellen lassen" property="og:title">
         <meta content="Möchtest du heute deine beste Webseite erstellen lassen. | Professionelle Webdesign Agentur in Lübeck – omorras. ♡Unsere talentierten Webdesigner geben 100%." property="og:description">
@@ -361,17 +361,18 @@
             @include('includes.navbar_aboutus')
 
             <!-- Blog Section -->
+            @foreach($list as $item)
     <div class="blogs-container">
         <div class="blogs-content">
-            <h1 class="blogs-title">The Future of Web Development</h1>
-            <img class="blogs-image" src="https://images.unsplash.com/photo-1505238680356-667803448bb6" alt="Blog Image">
+            <h1 class="blogs-title">{{$item['title']}}</h1>
+            <img class="blogs-image" src="{{ asset($item->image) }}"  alt="Blog Image">
             <p class="blogs-text">
-                Web development is evolving at an unprecedented pace. With the rise of AI, machine learning, and new frameworks,
-                the way we build and interact with websites is changing dramatically. This blog explores the future trends in
-                web development, focusing on what developers can expect in the coming years.
+            {{$item['description']}}
             </p>
         </div>
     </div>
+    @endforeach
+    
 
 
                  <!-- Footer Section -->
