@@ -365,7 +365,7 @@
     <div class="blogs-container">
         <div class="blogs-content">
             <h1 class="blogs-title">{{$item['title']}}</h1>
-            <img class="blogs-image" src="{{ asset($item->image) }}"  alt="Blog Image">
+            <img class="blogs-image" src="/blogImages/{{$item->image}}"  alt="Blog Image">
             <p class="blogs-text">
             {{$item['description']}}
             </p>
