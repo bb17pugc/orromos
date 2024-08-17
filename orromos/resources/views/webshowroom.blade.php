@@ -565,7 +565,7 @@
                                 <strong class="bold-text-15">—</strong> denn deine Website muss für dich arbeiten.
                             </div>
                         </div>
-                        <a href="/kontakt" target="_blank" class="button-2 is-glow help-button help-button-mobile w-inline-block">
+                        <a href="/contact" target="_blank" class="button-2 is-glow help-button help-button-mobile w-inline-block">
                             <div class="text-block-4">Jetzt Hilfe anfordern</div>
                         </a>
                     </div>

@@ -18,6 +18,8 @@ Route::get('/new-blog', [App\Http\Controllers\BlogController::class, 'NewBlog'])
 Route::post('/save-blog', [App\Http\Controllers\BlogController::class, 'SaveBlog'])->name('save-blog');
 Route::get('/blogs', [App\Http\Controllers\BlogController::class, 'Blog'])->name('blogs');
 Route::get('/view-data', [App\Http\Controllers\BlogController::class, 'viewData'])->name('view-data');
+Route::get('/webseite-erstellen-lassen', [App\Http\Controllers\PagesController::class, 'webshowroom'])->name('webseite-erstellen-lassen');
+Route::get('/impressum', [App\Http\Controllers\PagesController::class, 'impressum'])->name('impressum');
 
 
 

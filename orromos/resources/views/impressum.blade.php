@@ -3,7 +3,7 @@
 <html data-wf-domain="www.omorras.com" data-wf-page="664151b27c997e767e62cca6" data-wf-site="664151b27c997e767e62cc13">
     <head>
         <meta charset="utf-8">
-        <title>Upload Blogs</title>
+        <title>Blogs</title>
         <meta content="Möchtest du heute deine beste Webseite erstellen lassen. | Professionelle Webdesign Agentur in Lübeck – omorras. ♡Unsere talentierten Webdesigner geben 100%." name="description">
         <meta content="About — Webseite erstellen lassen" property="og:title">
         <meta content="Möchtest du heute deine beste Webseite erstellen lassen. | Professionelle Webdesign Agentur in Lübeck – omorras. ♡Unsere talentierten Webdesigner geben 100%." property="og:description">
@@ -16,7 +16,7 @@
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link href="./css/omorras.webflow.aff0469ba.css" rel="stylesheet" type="text/css">
         <link href="./css/blog.css" rel="stylesheet" type="text/css">
-        <link href="./css/output.css" rel="stylesheet" type="text/css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 
         <meta content="GWipyHxbT2i1MD7aPV5UhVqIBnDaikJDuy10hDD0bKU" name="google-site-verification">
         <style>@media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="2ac0f30f-ff91-4549-6824-6e1d0e9ec69c"] {-webkit-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="59a8725e-f929-43eb-4181-d9753a22ec52"] {-webkit-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="a7651712-5be2-cde4-33f5-8cc420c54dc6"] {-webkit-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="f75c5641-7ee6-fe48-5cd6-022d7c7f7be7"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="c366f4eb-159f-b131-96b8-3de77e26ac00"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="a236c313-756e-3226-4714-3d44e5d1dfd3"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="3d8fd2bd-340b-99ce-7ee6-8b1d31348ebd"] {opacity:0;-webkit-transform:translate3d(0, 25px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 25px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 25px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 25px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeae4"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeb04"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeafc"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeaf4"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeaec"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeb0c"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c4f"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c53"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c5a"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c5e"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c68"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c6c"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c73"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c77"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c7e"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c82"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}}@media (max-width:991px) and (min-width:768px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="2ac0f30f-ff91-4549-6824-6e1d0e9ec69c"] {-webkit-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="59a8725e-f929-43eb-4181-d9753a22ec52"] {-webkit-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="a7651712-5be2-cde4-33f5-8cc420c54dc6"] {-webkit-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 1rem, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="f75c5641-7ee6-fe48-5cd6-022d7c7f7be7"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="c366f4eb-159f-b131-96b8-3de77e26ac00"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="a236c313-756e-3226-4714-3d44e5d1dfd3"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="3d8fd2bd-340b-99ce-7ee6-8b1d31348ebd"] {opacity:0;-webkit-transform:translate3d(0, 25px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 25px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 25px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 25px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeae4"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeb04"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeafc"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeaf4"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeaec"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="b0456520-ef50-d190-5b05-0306ba2eeb0c"] {-webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c4f"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c53"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c5a"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c5e"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c68"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c6c"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c73"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c77"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c7e"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c82"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}}@media (max-width:767px) and (min-width:480px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c4f"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c53"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c5a"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c5e"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c68"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c6c"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c73"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c77"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c7e"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c82"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}}@media (max-width:479px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c4f"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c53"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c5a"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c5e"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c68"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c6c"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c73"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c77"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c7e"] {background-color:rgb(199,199,199);}html.w-mod-js:not(.w-mod-ix) [data-w-id="4a3027c0-c8f5-e4f4-3f90-304daa997c82"] {-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);background-color:rgba(0,0,0,0);}}</style>
@@ -282,6 +282,9 @@
         padding: 15px;
     }
     
+    .unique-id{
+        left: 850px;
+    }
     
     /* Link color inherits from parent font color  */
     a {
@@ -359,45 +362,110 @@
                 </style>
             </div>
               <!-- Navbar Section -->
-            @include('includes.navbar_uploadblogs')
+            @include('includes.navbar_impressum')
 
-            <!-- form -->
-
-<div class="flex items-center justify-center min-h-screen mt-12">
-    <div class="bg-gray-100 p-8 rounded-lg shadow-lg w-full max-w-lg">
-        <h1 class="text-2xl mb-6 text-center form-head" style="color: #a9e405; font-size: 35px;">Upload Blog</h1>
-
-        <!-- input fields -->
-        <form method="POST" action="save-blog" enctype="multipart/form-data">
-            @csrf
-            <div class="mb-4">
-                <label for="blogTitle" class="block text-gray-700 font-semibold mb-2">Enter Your Blog Title</label>
-                <input type="text" id="blogTitle" name="blogTitle" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+           <!-- Impressum Section -->
+           <section class=" text-white py-10 px-6 lg:px-20 mt-52 ml-0 md:ml-20">
+        <!-- Header Section -->
+        <div class="text-left">
+          <h1 class="text-8xl font-bold">IMPRESSUM</h1>
+          <p class="mt-2 text-gray-400">Letzte Aktualisierung: Mai 10, 2024</p>
+          <p class="mt-2 text-gray-500 italic">Wir sind bereit für dein Vorhaben!</p>
+        </div>
+        
+        <!-- Contact Information Section -->
+        <div class="mt-8 flex flex-col lg:flex-row lg:justify-start lg:items-start space-y-4">
+          <div class="space-y-4 text-left">
+            <div class="flex items-center space-x-2">
+              <!-- Email Icon -->
+              <span class="fas fa-envelope">✉️</span>
+              <p>info@omorras.com</p>
             </div>
-
-            <div class="mb-4">
-                <label for="blogImage" class="block text-gray-700 font-semibold mb-2">Upload Blog Image</label>
-                <input type="file" id="blogImage" required name="blogImage" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+            <div class="flex items-center space-x-2">
+              <!-- Phone Icon -->
+              <span class="fas fa-phone">📞</span>
+              <p>+49 177 456 7033</p>
             </div>
-
-            <div class="mb-6">
-                <label for="blogContent" class="block text-gray-700 font-semibold mb-2">Write Content of The Blog</label>
-                <textarea id="blogContent" name="blogContent" rows="6" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"></textarea>
+            <div class="flex items-center space-x-2">
+              <!-- Location Icon -->
+              <span class="fas fa-map-marker-alt">📍</span>
+              <div>
+                <p class="font-semibold">Adresse unseres Hauptquartiers <span class="italic">(nur mit Termin)</span>:</p>
+                <p>Bürgerstrasse 6, 45329 Essen, Germany</p>
+              </div>
             </div>
+          </div>
+        </div>
+      
+        <!-- Business Information Section -->
+        <div class="mt-10 text-left">
+          <p>Die Webseiten unter <a href="https://www.omorras.com" class="text-gray-400">www.omorras.com</a> werden Ihnen angeboten von:</p>
+          <p class="font-bold">Raqeel Zeed (e.U)</p>
+          <p class="font-bold mt-4 md:absolute top-0 unique-id md:left-0 md:top-60 block">Umsatzsteuer-ID:<br> DE35 4717762</p>
+        </div>
+      
+        <!-- Additional Information Section -->
+        <div class="mt-10 text-left">
+          <p>Wir spezialisieren uns auf die Erstellung von Webseiten mit Webflow und Shopify. Unter dem Namen Omorras bieten wir maßgeschneiderte Webdesign-Dienstleistungen an.</p>
+        </div>
+      
+        <!-- EU Information Section -->
+        <div class="mt-6 text-left">
+          <h2 class="font-bold">EU-STREITSCHLICHTUNG</h2>
+          <p>Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit, die Sie unter folgendem Link erreichen können:</p>
+          <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE" class="text-gray-400">https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=DE</a>
+        </div>
+      
+        <!-- Contact Section -->
+        <div class="mt-6 text-left">
+          <p><span class="font-bold">Kontakt:</span> Für Anfragen bezüglich unserer Webdesign-Dienstleistungen oder technische Unterstützung kontaktieren Sie bitte unseren <span class="font-bold">Support per E-Mail:</span> info@omorras.com oder telefonisch unter: +49 177 456 7033.</p>
+        </div>
+      </section>
 
-            <!-- submit button -->
 
-            <button type="submit" class="w-full" style="
-            background-color: #a3de00; /*  */
-            color: white; /* text-white */
-            padding: 0.5rem 1rem; /* py-2 */
-            border-radius: 0.375rem; /* rounded-lg */
-            font-weight: 600; /* font-semibold */
-            transition: background-color 0.2s; /* transition duration-200 */
-        " onmouseover="this.style.backgroundColor='#a3de00'" onmouseout="this.style.backgroundColor='#a3de00'">Save</button>
-        </form>
-    </div>
-   </div>
+
+
+      <section class=" text-white py-12 px-6 lg:px-20 font-staffaxcondensed ml-6 md:ml-40">
+        <!-- Section 1: Haftungsausschluss -->
+        <div class="mb-10">
+          <h2 class="text-3xl lg:text-4xl font-bold mb-4">1. Haftungsausschluss:</h2>
+          <p class="text-lg lg:text-xl">
+            Wir behalten uns Irrtümer und Darstellungsfehler vor. Als Dienstanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten verantwortlich, jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen. Bei Kenntnis von Rechtsverletzungen werden entsprechende Inhalte umgehend entfernt.
+          </p>
+        </div>
+      
+        <!-- Section 2: Haftung für Links -->
+        <div class="mb-10">
+          <h2 class="text-3xl lg:text-4xl font-bold mb-4">2. Haftung für Links:</h2>
+          <p class="text-lg lg:text-xl">
+            Unser Angebot enthält Links zu externen Websites Dritter, für deren Inhalte wir keine Verantwortung übernehmen. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf Rechtsverstöße überprüft; rechtswidrige Inhalte waren nicht erkennbar.
+          </p>
+        </div>
+      
+        <!-- Section 3: Urheberrecht -->
+        <div class="mb-10">
+          <h2 class="text-3xl lg:text-4xl font-bold mb-4">3. Urheberrecht:</h2>
+          <p class="text-lg lg:text-xl">
+            Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung oder Verbreitung bedarf der schriftlichen Zustimmung des Urhebers. Inhalte Dritter sind als solche gekennzeichnet.
+          </p>
+        </div>
+      
+        <!-- Section 4: Inhaltlich verantwortlich -->
+        <div class="mb-10">
+          <h2 class="text-3xl lg:text-4xl font-bold mb-4">4. Inhaltlich verantwortlich:</h2>
+          <p class="text-lg lg:text-xl">
+            Herr Raqeel Zeed gemäß § 18 Abs. 2 MStV
+          </p>
+        </div>
+      
+        <!-- Section: Bildnachweise -->
+        <div class="mb-10">
+          <h2 class="text-3xl lg:text-4xl font-bold mb-4">Bildnachweise:</h2>
+          <p class="text-lg lg:text-xl">Bisher keini</p>
+        </div>
+      </section>
+
+            
     
 
 

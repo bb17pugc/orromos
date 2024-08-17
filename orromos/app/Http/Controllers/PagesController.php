@@ -26,6 +26,10 @@ class PagesController extends Controller
     {
         return view('webshowroom');
     }
+    public function impressum()
+    {
+        return view('impressum');
+    }
     
     
 }

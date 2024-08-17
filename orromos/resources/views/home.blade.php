@@ -4,6 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Webseite von Profis erstellen lassen — gut &amp; fair</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
         <meta content="Heute deine DSGVO-konforme Webseite von Profis erstellen lassen — zum Festpreis! ✓100% im stabilsten Websystem ☺mobile Endgeräte ☆schnell." name="description">
         <meta content="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorraswebdesignlogo2.webp" property="og:image">
         <meta content="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorraswebdesignlogo2.webp" property="twitter:image">
@@ -306,16 +307,58 @@
         .hide, .hide-tablet {
             display: none !important;
         }
+        .mobile-meet-btn {
+        position: absolute;
+        left: -16px;
+        top: -146px;
+        z-index: 100;
+        padding: 0px;
+        font-size: 16px;
+    }
+    .mobile-meet-icon {
+        position: absolute;
+        top: -84px;
+        left: -7px;
+        z-index: 100;
+    }
     }
       @media screen and (max-width: 767px) {
         .hide-mobile-landscape{
           display: none !important;
         }
+        .mobile-meet-btn {
+        position: absolute;
+        left: -16px;
+        top: -146px;
+        z-index: 100;
+        padding: 0px;
+        font-size: 16px;
+    }
+    .mobile-meet-icon {
+        position: absolute;
+        top: -84px;
+        left: -7px;
+        z-index: 100;
+    }
     }
       @media screen and (max-width: 479px) {
         .hide-mobile{
           display: none !important;
         }
+        .mobile-meet-btn {
+        position: absolute;
+        left: -16px;
+        top: -146px;
+        z-index: 100;
+        padding: 0px;
+        font-size: 16px;
+    }
+    .mobile-meet-icon {
+        position: absolute;
+        top: -84px;
+        left: -7px;
+        z-index: 100;
+    }
     }
      
     .margin-0 {
@@ -427,6 +470,16 @@
     a {
         color: inherit;
     }
+
+    @media (min-width:1025px){
+
+    .meet-btn{
+        left: -465px;
+    }
+    .meet-icon{
+        left: -440px;
+    }
+}
                 </style>
             </div>
 <!-- Navbar -->
@@ -443,6 +496,10 @@
                                         <div class="text-align-center">
                                             <div class="max-width-large align-center">
                                                 <div class="margin-bottom margin-medium">
+                                                  <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg text-lg leading-tight absolute meet-btn -top-24 mobile-meet-btn" style="background-color: #7e9347">
+                                                     Termin<br>online<br>buchen
+                                                  </button></a>
+                                                  <i class="fas fa-headset text-3xl meet-icon absolute top-7 mobile-meet-icon"></i>                                                 
                                                     <h1 class="home-hero_h1 mobile-hero-text">Lass Deine Webseite
                                                         <br>Conversion-Optimiert
                                                         <br>von Profis erstellen
@@ -920,7 +977,7 @@
                             </div>
                             <div class="margin-top margin-xlarge">
                                 <div data-w-id="3c93f5fd-4a8d-0431-4b06-ded573d71092" class="button-group is-center">
-                                    <a href="/kontakt" fs-copyclip-element="click" class="button is-icon is-small w-inline-block">
+                                    <a href="/contact" fs-copyclip-element="click" class="button is-icon is-small w-inline-block">
                                         <div class="clip">
                                             <div class="button-text">
                                                 <div class="text-color-graytrue100">Erstelle meine Webseite</div>
@@ -1647,7 +1704,7 @@
                                 <strong class="bold-text-15">—</strong> denn deine Website muss für dich arbeiten.
                             </div>
                         </div>
-                        <a href="/kontakt" target="_blank" class="button-2 is-glow help-button help-button-mobile w-inline-block">
+                        <a href="/contact" target="_blank" class="button-2 is-glow help-button help-button-mobile w-inline-block">
                             <div class="text-block-4">Jetzt Hilfe anfordern</div>
                         </a>
                     </div>
@@ -1928,7 +1985,7 @@
                                         <a
                                             id="w-node-f49fff61-01b7-62af-f2a1-59730bfba99a-0bfba95f"
                                             data-w-id="f49fff61-01b7-62af-f2a1-59730bfba99a"
-                                            href="/kontakt"
+                                            href="/contact"
                                             class="footer_navlink _5 w-inline-block"
                                         >
                                             <div class="clip">

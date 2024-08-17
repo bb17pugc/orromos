@@ -581,7 +581,7 @@
                                             <em>User experience</em>.
                                             <br>‍
                                             <br>Melde dich jetzt entspannt bei uns über das
-                                            <a href="/kontakt">
+                                            <a href="/contact">
                                                 <strong>Kontaktformular</strong>
                                             </a> oder per
                                             <a href="https://wa.me/4917656938223">
@@ -845,7 +845,7 @@
                                             <div style="-webkit-transform:translate3d(0, 1rem, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 1rem, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 1rem, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 1rem, 0) scale3d(0.96, 0.96, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="faqs_item-bottom-inner">
                                                 <p class="text-color-graytrue700">
                                                     <strong>In 5-Schritten</strong>: Trete mit uns in
-                                                    <a href="/kontakt">
+                                                    <a href="/contact">
                                                         <strong>Kontakt per Kontaktformular</strong>
                                                     </a> oder WhatsApp (kürzeste Wartezeit), Entwurf erhalten und Webseite erstellen lassen, brilliante Strategie erarbeiten lassen, Umsetzung der Planung und letztlich der Launch deiner neuen Webseite.
                                                     <a href="https://www.omorras.com/#Process" class="text-style-link">Erfahre mehr</a>.
@@ -1123,7 +1123,7 @@
                                         <a
                                             id="w-node-b0456520-ef50-d190-5b05-0306ba2eeb02-7e62cca6"
                                             data-w-id="b0456520-ef50-d190-5b05-0306ba2eeb02"
-                                            href="/kontakt"
+                                            href="/contact"
                                             class="footer_navlink _5 w-inline-block"
                                         >
                                             <div class="clip">

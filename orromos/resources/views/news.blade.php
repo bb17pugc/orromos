@@ -665,7 +665,7 @@
                                         <a
                                             id="w-node-f49fff61-01b7-62af-f2a1-59730bfba99a-0bfba95f"
                                             data-w-id="f49fff61-01b7-62af-f2a1-59730bfba99a"
-                                            href="/kontakt"
+                                            href="/contact"
                                             class="footer_navlink _5 w-inline-block"
                                         >
                                             <div class="clip">

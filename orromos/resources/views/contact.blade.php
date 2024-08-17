@@ -22,6 +22,8 @@
         <link href="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664c8502570f137cdcb3cbc0_Favicon-Bestes-omorras-Webdesign-webcliplogo.png" rel="apple-touch-icon">
         <link href="https://www.omorras.com/kontakt" rel="canonical">
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
 
         <!-- Please keep this css code to improve the font quality-->
         <style>
@@ -43,7 +45,7 @@
     .footer {
         position: relative;
         left: 17px;
-        height: 906px;
+        height: 1010px;
     }
     .footer_right{
         top: -110px;
@@ -304,12 +306,86 @@
     .no-scrollbar::-webkit-scrollbar {
         display: none;
     }
+
+    @media screen and (max-width: 991px) {
+        .hide, .hide-tablet {
+            display: none !important;
+        }
+        .mobile-meet-btn {
+        position: absolute;
+        left: 135px;
+        top: -41px;
+        z-index: 100;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .mobile-meet-icon {
+        position: absolute;
+        top: 32px;
+        left: 147px;
+        z-index: 100;
+    }
+    }
+      @media screen and (max-width: 767px) {
+        .hide-mobile-landscape{
+          display: none !important;
+        }
+        .mobile-meet-btn {
+        position: absolute;
+        left: 135px;
+        top: -41px;
+        z-index: 100;
+        padding: 5px;
+        font-size: 16px;
+    }
+    .mobile-meet-icon {
+        position: absolute;
+        top: 32px;
+        left: 147px;
+        z-index: 100;
+    }
+    }
+      @media screen and (max-width: 479px) {
+        .hide-mobile{
+          display: none !important;
+        }
+        .mobile-meet-btn {
+        position: absolute;
+        left: -9px;
+        top: -102px;
+        z-index: 100;
+        padding: 5px;
+        font-size: 16px;
+    }
+ 
+    .mobile-meet-icon {
+        position: absolute;
+        top: -34px;
+        left: 8px;
+        z-index: 100;
+    }
+
+    .footer_h1{
+        margin-top: 81px;
+    }
+    }
     
     
     /* Link color inherits from parent font color  */
     a {
         color: inherit;
     }
+    @media (min-width:1025px){
+
+        .meet-btn {
+        left: -251px;
+        top: 0px;
+    }
+.meet-icon{
+    left: -230px;
+        top: 120px;
+}
+}
                 </style>
             </div>
             <main class="main-wrapper background-color-black -mt-16 ml-20">
@@ -323,7 +399,11 @@
                                             <div data-w-id="56a9b0f9-f42b-9fe5-6d86-84fb3889a43d" class="contact-page_content">
                                                 <div class="margin-bottom margin-medium">
                                                     <div class="margin-bottom margin-small">
-                                                        <p class="paragraph-46 blog-font">IN KONTAKT TRETEN &amp;</p>
+                                                    <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg text-lg leading-tight absolute meet-btn -top-24 mobile-meet-btn" style="background-color: #7e9347">
+                                                     Termin<br>online<br>buchen
+                                                  </button></a>
+                                                  <i class="fas fa-headset text-3xl meet-icon absolute top-7 mobile-meet-icon"></i>
+                                                        <p class="paragraph-46 blog-font mt-20 md:mt-0">IN KONTAKT TRETEN &amp;</p>
                                                         <h2 class="text-3xl blog-font" style="color: #696969;">SEO MARKETING STRATEGIE FÜR DEINE WEBSEITE ERSTELLEN <br>LASSEN</h2>
                                                     </div>
                                                     <p class="">Bist du bereit, jetzt dein Unternehmen an die Spitze zu bringen? Jede Sekunde ohne eine leistungsstarke, exklusivSEO-optmierte Webseite bedeutet verlorene Kunden und Chancen.</p>
@@ -714,7 +794,7 @@
                                         <a
                                             id="w-node-f49fff61-01b7-62af-f2a1-59730bfba99a-0bfba95f"
                                             data-w-id="f49fff61-01b7-62af-f2a1-59730bfba99a"
-                                            href="/kontakt"
+                                            href="/contact"
                                             aria-current="page"
                                             class="footer_navlink _5 w-inline-block w--current"
                                         >
