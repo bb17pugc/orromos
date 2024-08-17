@@ -26,7 +26,7 @@
                                 <a href="/new-blog" style="position: absolute; right: 250px; top:6px; padding-left: 25px; padding-right: 25px; white-space: nowrap;  -webkit-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 0%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="button-text navbar_button w-inline-block"  >
                                 New Blog +
                             </a>
-                                <a href="/kontakt" data-w-id="62c471a8-862f-b357-81aa-f6b245f5a588" class="navbar_button w-inline-block">
+                                <a href="/contact" data-w-id="62c471a8-862f-b357-81aa-f6b245f5a588" class="navbar_button w-inline-block">
                                     <div class="clip">
                                         <div style="transform: translate3d(0px, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;" class="button-text">
                                             <div>Projekt anfragen</div>
@@ -71,7 +71,7 @@
                                                     <!--Home  end-->
                                                     <div style="transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="navbar_into-view-1">
                                                  
-                                                        <a href="/about" class="navbar_link top-item w-inline-block" tabindex="0">
+                                                        <a href="/blogs" class="navbar_link top-item w-inline-block" tabindex="0">
                                                             <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5a2-7e62cc73" class="clip">
                                                                 <div class="button-icon" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
                                                                     <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
@@ -80,12 +80,12 @@
                                                                     <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
                                                                 </div>
                                                             </div>
-                                                            <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5a7-7e62cc73" class="text-condensed-normal">About</div>
+                                                            <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5a7-7e62cc73" class="text-condensed-normal">Blogs</div>
                                                         </a>
                                                     </div>
                                                     <!--Blogs -->
                                                     <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5a9-7e62cc73" style="transform: translate3d(0px, 0rem, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; opacity: 1;" class="navbar_into-view-2">
-                                                        <a href="/blogs" class="navbar_link w-inline-block" tabindex="0">
+                                                        <a href="/about" class="navbar_link w-inline-block" tabindex="0">
                                                             <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5ab-7e62cc73" class="clip">
                                                                 <div class="button-icon" style="transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
                                                                     <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
@@ -94,7 +94,7 @@
                                                                     <img loading="lazy" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/664151b27c997e767e62ccd1_arrow-yellow.svg" alt="A yellow arrow that has a 45 degree angle" class="icon-1x1-xxsmall">
                                                                 </div>
                                                             </div>
-                                                            <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5b0-7e62cc73" class="text-condensed-normal">Blogs</div>
+                                                            <div id="w-node-_62c471a8-862f-b357-81aa-f6b245f5a5b0-7e62cc73" class="text-condensed-normal">About</div>
                                                         </a>
                                                     </div>
                                                     <!--Blogs  end-->
