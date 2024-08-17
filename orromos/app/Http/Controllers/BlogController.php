@@ -44,7 +44,7 @@ class BlogController extends Controller
     // Save the data in the database
     $blog = new Blog();
     $blog->title = $request->input('blogTitle');
-    $blog->image = $imagePath; // Store the relative path
+    $blog->image = $imageName; // Store the relative path
     $blog->user_id = Auth::user()->id;
     $blog->description = $request->input('blogContent');
     $blog->save();
