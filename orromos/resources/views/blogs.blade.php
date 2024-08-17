@@ -358,7 +358,7 @@
                 </style>
             </div>
               <!-- Navbar Section -->
-            @include('includes.navbar_aboutus')
+            @include('includes.navbar_blog')
 
             <!-- Blog Section -->
             @foreach($list as $item)

@@ -1,80 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage</title>
+<!-- form -->
 
-    <!-- Card hover border glow -->
-    <style>
-    .card_border_glow {
-        -webkit-backface-visibility: hidden;
-        -moz-backface-visibility: hidden;
-        -webkit-transform: translate3d(0, 0, 0);
-        -moz-transform: translate3d(0, 0, 0);
-    }
+<div class="flex items-center justify-center min-h-screen mt-12">
+    <div class="bg-gray-100 p-8 rounded-lg shadow-lg w-full max-w-lg">
+        <h1 class="text-2xl mb-6 text-center form-head" style="color: #a9e405; font-size: 35px;">Upload Blog</h1>
 
-    /* Initial background is black */
-    body {
-        background-color: #000000;
-        transition: background-color 2s ease-in-out;
-    }
+        <!-- input fields -->
+        <form method="POST" action="save-blog" enctype="multipart/form-data">
+            @csrf
+            <div class="mb-4">
+                <label for="blogTitle" class="block text-gray-700 font-semibold mb-2">Enter Your Blog Title</label>
+                <input type="text" id="blogTitle" name="blogTitle" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+            </div>
 
-    /* Class to trigger the light effect */
-    .light-on {
-        background-color: #aeaeae; /* Light gray color */
-    }
+            <div class="mb-4">
+                <label for="blogImage" class="block text-gray-700 font-semibold mb-2">Upload Blog Image</label>
+                <input type="file" id="blogImage" required name="blogImage" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+            </div>
 
-    /* Additional content styling */
-    .content {
-        color: white;
-        text-align: center;
-        padding: 50px 20px;
-        font-family: Arial, sans-serif;
-    }
+            <div class="mb-6">
+                <label for="blogContent" class="block text-gray-700 font-semibold mb-2">Write Content of The Blog</label>
+                <textarea id="blogContent" name="blogContent" rows="6" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent"></textarea>
+            </div>
 
-    .content h1 {
-        font-size: 3em;
-        margin-bottom: 20px;
-    }
+            <!-- submit button -->
 
-    .content p {
-        font-size: 1.5em;
-        line-height: 1.6;
-    }
-
-    /* Add enough height to enable scrolling */
-    .content-block {
-        height: 120vh;
-    }
-    </style>
-</head>
-<body>
-    <!-- Content block 1 -->
-    <div class="content content-block">
-        <h1>Welcome to My Webpage</h1>
-        <p>Scroll down to see the light-on effect.</p>
+            <button type="submit" class="w-full" style="
+            background-color: #a3de00; /*  */
+            color: white; /* text-white */
+            padding: 0.5rem 1rem; /* py-2 */
+            border-radius: 0.375rem; /* rounded-lg */
+            font-weight: 600; /* font-semibold */
+            transition: background-color 0.2s; /* transition duration-200 */
+        " onmouseover="this.style.backgroundColor='#a3de00'" onmouseout="this.style.backgroundColor='#a3de00'">Save</button>
+        </form>
     </div>
-
-    <!-- Content block 2 -->
-    <div class="content content-block">
-        <h1>More Content Here</h1>
-        <p>This is some additional content to ensure the page is scrollable.</p>
-    </div>
-
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Function to handle the scroll event
-        function handleScroll() {
-            // Add the class to simulate the light-on effect
-            document.body.classList.add('light-on');
-            // Remove the scroll event so it only triggers once
-            window.removeEventListener('scroll', handleScroll);
-        }
-
-        // Add the scroll event listener
-        window.addEventListener('scroll', handleScroll);
-    });
-    </script>
-</body>
-</html>
+   </div>
