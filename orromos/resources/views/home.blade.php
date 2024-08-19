@@ -332,14 +332,23 @@
         left: -16px;
         top: -146px;
         z-index: 100;
-        padding: 0px;
+        padding-top: 4px;
         font-size: 16px;
+        padding-bottom: 6px;
+        padding-left: 1px;
+        padding-right: 1px;
     }
     .mobile-meet-icon {
         position: absolute;
-        top: -84px;
+        top: -76px;
         left: -7px;
         z-index: 100;
+    }
+    .mobile-size-font{
+        font-size: 13px;
+        width: 54px;
+        height: 70px;
+
     }
     }
      
@@ -464,6 +473,9 @@
         z-index: 100;
         top: 255px;
     }
+    .size-font{
+        font-size: 1.2em;
+    }
 }
     
                 </style>
@@ -482,8 +494,8 @@
                                         <div class="text-align-center">
                                             <div class="max-width-large align-center">
                                                 <div class="margin-bottom margin-medium">
-                                                  <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg text-lg leading-tight fixed meet-btn -top-24 mobile-meet-btn" style="background-color: #7e9347">
-                                                     Termin<br>online<br>buchen
+                                                  <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg leading-tight fixed meet-btn -top-24 mobile-meet-btn size-font mobile-size-font" style="background-color: #7e9347">
+                                                    Termin<br>online<br>buchen
                                                   </button></a>
                                                   <i class="fas fa-headset text-3xl meet-icon fixed top-7 mobile-meet-icon"></i>                                                 
                                                     <h1 class="home-hero_h1 mobile-hero-text">Lass Deine Webseite
