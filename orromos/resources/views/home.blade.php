@@ -303,26 +303,8 @@
       display: none !important;
     }
     
-    @media screen and (max-width: 991px) {
-        .hide, .hide-tablet {
-            display: none !important;
-        }
-        .mobile-meet-btn {
-        position: absolute;
-        left: -16px;
-        top: -146px;
-        z-index: 100;
-        padding: 0px;
-        font-size: 16px;
-    }
-    .mobile-meet-icon {
-        position: absolute;
-        top: -84px;
-        left: -7px;
-        z-index: 100;
-    }
-    }
-      @media screen and (max-width: 767px) {
+   
+    @media screen and (max-width: 767px) {
         .hide-mobile-landscape{
           display: none !important;
         }
@@ -472,14 +454,18 @@
     }
 
     @media (min-width:1025px){
-
-    .meet-btn{
-        left: -465px;
-    }
+     .meet-btn{
+        left: -10px;
+        z-index: 100;
+        top: 135px;
+     }
     .meet-icon{
-        left: -440px;
+        left: 20px;
+        z-index: 100;
+        top: 255px;
     }
 }
+    
                 </style>
             </div>
 <!-- Navbar -->
@@ -496,10 +482,10 @@
                                         <div class="text-align-center">
                                             <div class="max-width-large align-center">
                                                 <div class="margin-bottom margin-medium">
-                                                  <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg text-lg leading-tight absolute meet-btn -top-24 mobile-meet-btn" style="background-color: #7e9347">
+                                                  <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg text-lg leading-tight fixed meet-btn -top-24 mobile-meet-btn" style="background-color: #7e9347">
                                                      Termin<br>online<br>buchen
                                                   </button></a>
-                                                  <i class="fas fa-headset text-3xl meet-icon absolute top-7 mobile-meet-icon"></i>                                                 
+                                                  <i class="fas fa-headset text-3xl meet-icon fixed top-7 mobile-meet-icon"></i>                                                 
                                                     <h1 class="home-hero_h1 mobile-hero-text">Lass Deine Webseite
                                                         <br>Conversion-Optimiert
                                                         <br>von Profis erstellen

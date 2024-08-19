@@ -350,7 +350,7 @@
           display: none !important;
         }
         .mobile-meet-btn {
-        position: absolute;
+        
         left: -9px;
         top: -102px;
         z-index: 100;
@@ -375,17 +375,23 @@
     a {
         color: inherit;
     }
-    @media (min-width:1025px){
+    
 
-        .meet-btn {
-        left: -251px;
-        top: 0px;
+    @media (min-width:1025px){
+     .meet-btn{
+        left: -171px;
+        z-index: 100;
+        top: 5px;
+        position: fixed;
+     }
+    .meet-icon{
+        left: -140px;
+        z-index: 100;
+        top: 130px;
+        position: fixed;
     }
-.meet-icon{
-    left: -230px;
-        top: 120px;
 }
-}
+
                 </style>
             </div>
             <main class="main-wrapper background-color-black -mt-16 ml-20">
@@ -399,10 +405,12 @@
                                             <div data-w-id="56a9b0f9-f42b-9fe5-6d86-84fb3889a43d" class="contact-page_content">
                                                 <div class="margin-bottom margin-medium">
                                                     <div class="margin-bottom margin-small">
-                                                    <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg text-lg leading-tight absolute meet-btn -top-24 mobile-meet-btn" style="background-color: #7e9347">
+                                                    <div class="fixed" >
+                                                    <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg text-lg leading-tight fixed meet-btn -top-24 mobile-meet-btn" style="background-color: #7e9347">
                                                      Termin<br>online<br>buchen
                                                   </button></a>
-                                                  <i class="fas fa-headset text-3xl meet-icon absolute top-7 mobile-meet-icon"></i>
+                                                  <i class="fas fa-headset text-3xl meet-icon fixed top-7 mobile-meet-icon"></i>
+                                                    </div>
                                                         <p class="paragraph-46 blog-font mt-20 md:mt-0">IN KONTAKT TRETEN &amp;</p>
                                                         <h2 class="text-3xl blog-font" style="color: #696969;">SEO MARKETING STRATEGIE FÜR DEINE WEBSEITE ERSTELLEN <br>LASSEN</h2>
                                                     </div>
