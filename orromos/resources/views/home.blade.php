@@ -25,7 +25,66 @@
       -o-font-smoothing: antialiased;
     }
 
+    .team-block{
+        width: 267px;
+    height: 682px;
+    border-radius: 38px;
+    }
+
+    .padding-section-large{
+        margin-top: 45px;
+        border-radius: 35px;
+    }
     
+    .team-block-1{
+        margin-left: 300px;
+    }
+    .team-block-2{
+        margin-left: 100px;
+    }
+    .team-block-3{
+        margin-left: -100px;
+    }
+
+    @media screen and (max-width: 479px) {
+    .team-block {
+        padding-bottom: 0;
+        width: 116px;
+        margin-left: 11px;
+        height: 420px;
+    }
+}
+@media (min-width:1025px){
+   .prob-sol-padding-global{
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 101px;
+   }
+}
+
+#About{
+    z-index: 1;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 479px) {
+    .team-member-text {
+        width: 114%;
+        margin-left: -10px;
+        margin-right: auto;
+        font-size: 0.64rem;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .padding-section-large.webshowroom-padding-section-large {
+        top: 432px;
+        margin-top: 23px;
+    }
+}
 
     @media screen and (max-width: 767px) {
         .m-section-large.home-msection {
@@ -328,26 +387,30 @@
           display: none !important;
         }
         .mobile-meet-btn {
-        position: absolute;
-        left: -16px;
-        top: -146px;
+            position: fixed;
+        left: 0px;
+        top: 103px;
         z-index: 100;
         padding-top: 4px;
         font-size: 16px;
         padding-bottom: 6px;
         padding-left: 1px;
         padding-right: 1px;
+        paddim
     }
     .mobile-meet-icon {
-        position: absolute;
-        top: -76px;
-        left: -7px;
+        position: fixed;
+        top: 153px;
+        left: 3px;
         z-index: 100;
+        width: 36px;
+        height: 35px;
     }
     .mobile-size-font{
-        font-size: 13px;
-        width: 54px;
+        font-size: 11px;
+        width: 45px;
         height: 70px;
+        padding-bottom: 86px;
 
     }
     }
@@ -464,17 +527,20 @@
 
     @media (min-width:1025px){
      .meet-btn{
-        left: -10px;
+        left: -2px;
         z-index: 100;
         top: 135px;
+        padding-bottom: 66px;
      }
     .meet-icon{
-        left: 20px;
+        left: -8px;
         z-index: 100;
-        top: 255px;
+        top: 197px;
+        width: 4.5rem;
+        height: 5.5rem;
     }
     .size-font{
-        font-size: 1.2em;
+        font-size: 0.7em;
     }
 }
     
@@ -497,7 +563,7 @@
                                                   <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg leading-tight fixed meet-btn -top-24 mobile-meet-btn size-font mobile-size-font" style="background-color: #7e9347">
                                                     Termin<br>online<br>buchen
                                                   </button></a>
-                                                  <i class="fas fa-headset text-3xl meet-icon fixed top-7 mobile-meet-icon"></i>                                                 
+                                                  <img class="meet-icon fixed top-7 mobile-meet-icon" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66babcbfb376edd638dd821e_Favicon-loom-button.svg"></img>                                                 
                                                     <h1 class="home-hero_h1 mobile-hero-text">Lass Deine Webseite
                                                         <br>Conversion-Optimiert
                                                         <br>von Profis erstellen
@@ -744,7 +810,7 @@
                             >
                                 <div class="mask w-slider-mask">
                                     <div class="team-slide-wrapper w-slide">
-                                        <div class="team-block">
+                                        <div class="team-block team-block-1">
                                             <div
                                                 class="lottie-animation"
                                                 data-w-id="c70c1ccc-883c-f8e4-f0c4-dff995d78f0a"
@@ -774,7 +840,7 @@
                                         </div>
                                     </div>
                                     <div class="team-slide-wrapper w-slide">
-                                        <div class="team-block">
+                                        <div class="team-block team-block-2">
                                             <div
                                                 id="animation-description"
                                                 class="lottie-animation-2"
@@ -796,16 +862,14 @@
                                                     <br>Langsame Webseiten kosten viele Kunden.
                                                     <br>Mit unserem High Quality Design und dem schnellsten Hosting maximierst du die Performance, deine Conversion-Rate und hast am Ende
                                                     <strong>kein</strong> 0815-Shop.
-                                                    <br>
-                                                    <br>Wir erstellen deine Homepage in Rekordzeit mit einem
-                                                    <br>Minimal Viable Product (MVP) für den Markt, damit du schnell aus deiner Idee Umsatz generierst.
+                                                    
                                                 </p>
                                                 <a href="#" class="text-link-arrow w-inline-block"></a>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="team-slide-wrapper w-slide">
-                                        <div class="team-block">
+                                        <div class="team-block team-block-3">
                                             <div
                                                 class="lottie-animation-3"
                                                 data-w-id="c70c1ccc-883c-f8e4-f0c4-dff995d78f3c"
@@ -823,7 +887,7 @@
                                                 <h3 class="team-member-name-two">Google-Sichtbarkeit steigern</h3>
                                                 <p class="team-member-text">Was bringt eine Webseite, wenn sie nicht vom Kunden gefunden wird?
                                                     <br>
-                                                    <br>Eigenständiges Webdesign vernachlässigt oft SEO, was die Auffindbarkeit auf Google beeinträchtigt.
+                                                   
                                                     <br>
                                                     <br>Wir bieten eine solide
                                                     <br>SEO-Optimierung für
