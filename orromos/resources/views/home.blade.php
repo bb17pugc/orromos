@@ -401,7 +401,7 @@ body{
     .mobile-meet-icon {
         position: fixed;
         top: 153px;
-        left: 3px;
+        left: 33px;
         z-index: 100;
         width: 36px;
         height: 35px;

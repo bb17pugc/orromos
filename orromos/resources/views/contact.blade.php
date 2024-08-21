@@ -66,7 +66,7 @@
     .footer {
         position: relative;
         left: 17px;
-        height: 906px;
+        height: 980px;
     }
     .footer_right{
         top: -110px;
@@ -356,29 +356,31 @@
           display: none !important;
         }
         .mobile-meet-btn {
-        
-        left: -9px;
-        top: -102px;
+            position: fixed;
+        left: 0px;
+        top: 103px;
         z-index: 100;
         padding-top: 4px;
         font-size: 16px;
         padding-bottom: 6px;
         padding-left: 1px;
         padding-right: 1px;
+        paddim
     }
-
-    .mobile-size-font{
-        font-size: 13px;
-        width: 54px;
-        height: 70px;
-
-    }
- 
     .mobile-meet-icon {
-        position: absolute;
-        top: -34px;
-        left: 8px;
+        position: fixed;
+        top: 148px;
+        left: -8px;
         z-index: 100;
+        width: 58px;
+        height: 47px;
+    }
+    .mobile-size-font{
+        font-size: 11px;
+        width: 45px;
+        height: 70px;
+        padding-bottom: 86px;
+
     }
 
     .footer_h1{
@@ -395,21 +397,24 @@
 
     @media (min-width:1025px){
      .meet-btn{
-        left: -171px;
+        left: -164px;
         z-index: 100;
-        top: 5px;
-        position: fixed;
+        top: 4px;
+        padding-bottom: 66px;
      }
     .meet-icon{
-        left: -140px;
+        left: -167px;
         z-index: 100;
-        top: 130px;
-        position: fixed;
+        top: 63px;
+        width: 4.5rem;
+        height: 5.5rem;
     }
     .size-font{
-        font-size: 1.2em;
+        font-size: 0.7em;
     }
 }
+
+
 
                 </style>
             </div>
@@ -425,11 +430,10 @@
                                                 <div class="margin-bottom margin-medium">
                                                     <div class="margin-bottom margin-small">
                                                     
-                                                    <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center  font-semibold px-4 py-6 rounded-lg size-font mobile-size-font leading-tight fixed meet-btn -top-24 mobile-meet-btn" style="background-color: #7e9347">
-                                                     Termin<br>online<br>buchen
+                                                    <a href="https://tidycal.com/omorras-webdesign/15-minuten-omorras"><button  class="text-center font-semibold px-4 py-6 rounded-lg leading-tight fixed meet-btn -top-24 mobile-meet-btn size-font mobile-size-font" style="background-color: #7e9347">
+                                                    Termin<br>online<br>buchen
                                                   </button></a>
-                                                  <i class="fas fa-headset text-3xl meet-icon fixed top-7 mobile-meet-icon"></i>
-                                                 
+                                                  <img class="meet-icon fixed top-7 mobile-meet-icon" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66babcbfb376edd638dd821e_Favicon-loom-button.svg"></img> 
                                                         <p class="paragraph-46 blog-font mt-20 md:mt-0">IN KONTAKT TRETEN &amp;</p>
                                                         <h2 class="text-3xl blog-font" style="color: #696969;">SEO MARKETING STRATEGIE FÜR DEINE WEBSEITE ERSTELLEN <br>LASSEN</h2>
                                                     </div>
