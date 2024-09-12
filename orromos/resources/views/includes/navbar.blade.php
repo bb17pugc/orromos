@@ -15,7 +15,9 @@
                     <div class="navbar_component custom-alignment">
                         <div class="navbar_base is-left">
                             <a href="/" data-w-id="62c471a8-862f-b357-81aa-f6b245f5a582" aria-current="page" class="navbar_logo-link w-nav-brand w--current" aria-label="home" style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
-                                <img width="198" sizes="(max-width: 479px) 166px, 198px" alt="omorras-webdesign-green-white" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorraswebdesignlogo2.webp" loading="lazy" srcset="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorras%2520green%2520Logo-p-500.webp 500w, https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorraswebdesignlogo2.webp 596w">
+                                <!-- <img width="198" sizes="(max-width: 479px) 166px, 198px" alt="omorras-webdesign-green-white" src="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorraswebdesignlogo2.webp" loading="lazy" srcset="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorras%2520green%2520Logo-p-500.webp 500w, https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorraswebdesignlogo2.webp 596w"> -->
+                                  <img width="198" sizes="(max-width: 479px) 166px, 198px" alt="omorras-webdesign-green-white" src="../../images/omorras-main-logo-in-WHITE.svg" loading="lazy" srcset="https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorras%2520green%2520Logo-p-500.webp 500w, https://cdn.prod.website-files.com/664151b27c997e767e62cc13/66415a5db9aec80b8a4d919a_omorraswebdesignlogo2.webp 596w">
+
                             </a>
                         </div>
                         <div class="navbar_base">
